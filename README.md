@@ -24,7 +24,7 @@ Based on these ARP request and reply, ***ARP cache table*** in Host A will be up
 
 ARP cache is a table of ARP entries that are created whenever a device's MAC address is mapped with its local area IP address for future communication references on a network.
 This cache can be ***poisoned (using ARP spoofing)***. The term "poisoned" means spoofed or fake MAC address associated with an IP address.
-This poisoning lead to ***Man in the middle attack (MITM)*** which causes data to be intercepted and modified or stopped.
+This poisoning lead to ***Man in the middle attack (MITM)*** which causes data to be intercepted, and tnen modified or stopped.
 
 ## ARP Spoofing (ARP cache Poisoing)
 
