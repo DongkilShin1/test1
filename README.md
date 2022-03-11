@@ -16,18 +16,15 @@ When Host A wants to communicate to Host who has IP 192.168.0.1, a broadcast mes
 ### ARP Reply
 Then Host D replies with "I have 192.168.0.1 and my MAc address is 02:f2:02:f2:02:f2".
 
-Based on these ARP request and reply, ARP cache table in Host A will be updated.
+Based on these ARP request and reply, ***ARP cache table*** in Host A will be updated.
 
 ![image](https://user-images.githubusercontent.com/94558947/157925062-cdb137dc-3991-4edb-a1c8-fa13abc490dd.png)
 
+## ARP cache table
 
-
-
-## ARP cache
-
-
-
-
+ARP cache is a table of ARP entries that are created whenever a device's MAC address is mapped with its local area IP address for future communication references on a network.
+This cache can be ***poisoned (using ARP spoofing)***. The term "poisoned" means spoofed or fake MAC address associated with an IP address.
+This poisoning lead to ***Man in the middle attack (MITM)*** which causes data to be intercepted and modified or stopped.
 
 ## ARP Spoofing (ARP cache Poisoing)
 
