@@ -91,6 +91,45 @@ singup
 
 login
 
+- Kali linux
 
+. Check contents on Ettercap
+
+= Redirect intended to a website with DNS Spoofing
+
+- Kali linux
+
+. cd /var/www/html
+
+. cat index.html
+
+. service apache2 restart
+
+. service apache2 status
+
+Active: active (running)
+
+. vi /etc/ettercap/etter.dns
+
+. ARP poisoning stop
+
+. dns_spoof start on plugin
+
+Activating dns_spoof plugin
+
+. ARP poisoning start
+Starting Unified sniffing
+
+- Windows
+
+. delete dns cache
+
+ipconfig /flushdns
+
+. delete web cache on browser
+
+. reconnect to the site
+
+www.yahoo.com
 
 
