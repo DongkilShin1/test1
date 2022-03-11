@@ -146,3 +146,7 @@ Reconnect to the site
 www.yahoo.com
 
 
+
+Some long sentence. [^footnote]
+[^footnote]: Test, [Link](https://google.com).
+
