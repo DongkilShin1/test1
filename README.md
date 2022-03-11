@@ -3,12 +3,20 @@
 [Ettercap](https://en.wikipedia.org/wiki/Ettercap_(software)) is one of packet analyzers such as wireshark, tcpdump. It is also called as a packet sniffer because it is capable of intercepting data streams which flow on computer networks, and these captured packets are decoded and analyzed through proper RFCs or protocols by the tool. Therefore, it can be used as a tool for man-in-the-middle ***(MITM)*** attacks on local area network (LAN). By default, it has the ability to conduct eavesdropping, filter packets and collect passwords. Moreover, its features can be extended by custom plugins using its API as it has plugin suppport. It works by putting its network interface into promiscuous mode (pass its traffic of interface to CPU) and by ***ARP poisoning*** the target machines. It also has the ability to actively or passively find other poisoners on the LAN.
 
 ## ARP (Address Resolution Protocol)
-ARP  is one of important protocols of the network layer in the OSI Model. It translates physical address (MAC) of a device to logical address(IP), and vice-versa. It allows devices to communicate to each other on LAN by mapping IP address to its MAC address of a device. For example, a device on a network communicates with a gateway (or a AP) using ARP to connect to the Internet.
+ARP  is one of important protocols of the network layer in the OSI Model. It translates physical address (MAC) of a device to logical address(IP), and vice-versa. It allows devices to communicate to each other on LAN by mapping IP address to its MAC address of a device. For example, a device on a network communicates with a gateway (or a AP on a wireless network) using ARP to connect to the Internet.
 
 ![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
 
 
 ## ARP Request and ARP Reply/Response
+
+### ARP Request
+When Host A wants to communicate to Host who has IP 192.168.0.1, a broadcast message "MAC address 00:00:00:00:00:00" is sent from Host A to all hosts on the network asking who has "IP 192.168.0.1" 
+
+### ARP Reply
+Then Host D replies with "I have 192.168.0.1 and my MAc address is 02:f2:02:f2:02:f2".
+
+Based on these ARP request and reply, ARP cache table in Host A will be updated.
 
 ![image](https://user-images.githubusercontent.com/94558947/157925062-cdb137dc-3991-4edb-a1c8-fa13abc490dd.png)
 
