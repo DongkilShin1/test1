@@ -7,7 +7,36 @@ ARP  is one of important protocols of the network layer in the OSI Model. It tra
 
 ![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
 
+
+## ARP Request and ARP Reply/Response
+
+![image](https://user-images.githubusercontent.com/94558947/157925062-cdb137dc-3991-4edb-a1c8-fa13abc490dd.png)
+
+
+
+
+## ARP cache
+
+
+
+
+
 ## ARP Spoofing (ARP cache Poisoing)
+
+[ARP Spoofing](https://en.wikipedia.org/wiki/ARP_spoofing)
+
+https://techgenix.com/understanding-man-in-the-middle-attacks-arp-part1/
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/94558947/157922929-72c535a1-0d14-41c9-9f07-ea12df69d80e.png)
+
+
+## DNS cache
+
 
 
 ## DNS Spoofing (DNS cache Poisoing)
