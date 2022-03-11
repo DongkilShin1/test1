@@ -1,6 +1,19 @@
-# Ettercap
+# Ettercap - MITM tool
 ## Background
 [Ettercap](https://en.wikipedia.org/wiki/Ettercap_(software)) is one of packet analyzers such as wireshark, tcpdump. It is also called as a packet sniffer because it is capable of intercepting data streams which flow on computer networks, and these captured packets are decoded and analyzed through proper RFCs or protocols by the tool. Therefore, it can be used as a tool for man-in-the-middle ***(MITM)*** attacks on local area network (LAN). By default, it has the ability to conduct eavesdropping, filter packets and collect passwords. Moreover, its features can be extended by custom plugins using its API as it has plugin suppport. It works by putting its network interface into promiscuous mode (pass its traffic of interface to CPU) and by ***ARP poisoning*** the target machines. It also has the ability to actively or passively find other poisoners on the LAN.
+
+## MITM attack Types
+ARP Spoofing
+DNS Spoofing
+Session Hijacking
+SSL Hijacking
+
+## MITM Tools
+Hetty
+Bettercap
+Proxy.py
+MITMproxy
+Burpsuite
 
 ## ARP (Address Resolution Protocol)
 ARP  is one of important protocols of the network layer in the OSI Model. It translates physical address (MAC) of a device to logical address(IP), and vice-versa. It allows devices to communicate to each other on LAN by mapping IP address to its MAC address of a device. For example, a device on a network communicates with a gateway (or a AP on a wireless network) using ARP to connect to the Internet.
@@ -20,7 +33,7 @@ Based on these ARP request and reply, ***ARP cache table*** in Host A will be up
 
 ![image](https://user-images.githubusercontent.com/94558947/157925062-cdb137dc-3991-4edb-a1c8-fa13abc490dd.png)
 
-## ARP cache table
+## ARP cache
 
 ARP cache is a table of ARP entries that are created whenever a device's MAC address is mapped with its local area IP address for future communication references on a network.
 This cache can be ***poisoned (using ARP spoofing)***. The term "poisoned" means spoofed or fake MAC address associated with an IP address.
@@ -32,12 +45,24 @@ This poisoning lead to ***Man in the middle attack (MITM)*** which causes data t
 
 https://techgenix.com/understanding-man-in-the-middle-attacks-arp-part1/
 
-
-
-
-
+ARP Spoofing (aka ARP Poisoning) is a type of attack in which an attacker sends fabricate ARP messages over a local area network in order to link attacker's MAC address with the IP address of other device on a network to achieve a malicious task. If an attacker is able to manage linking of the MAC address of its device with the IP address of any other device on a local area network, this linking leads to ARP Poisoning and allows an attacker to carry out several malicious tasks such as intercepting network traffic, modify and even stop the data captured by putting an attacker in the middle of the communication of the devices (Man In The Middle attack)
 
 ![image](https://user-images.githubusercontent.com/94558947/157922929-72c535a1-0d14-41c9-9f07-ea12df69d80e.png)
+
+## Consequence of MITM attacks
+
+Attackers can sniff the packets or intercept the network traffic after successful ARP poisoning. Thus MITM leads indivisuals or companyies to enormous impacts since they can result in financial and reputataion losses. For example, stolen private information and credentials such as usernames and passwords can be used to make unauthorized purchases. These information can be also used to install malware or steal other sensitive information. For this reason, it is critical to protect digital systems to mitigate the risks of MITM attacks.
+
+## Conclusion - Preventing MITM attacks
+
+Identifying MITM attacks is difficlut to detect hacking variant as they occur directly on the target system and hackers do not perform suspicious-looking actions once installed in the middle of the affected connection. However, there are several security practices and techniques to prevent MITM variants.
+
+Secure Internet connections on home or business networks, using effective solutions and reliable authentication solutions.
+
+
+
+
+
 
 
 ## DNS cache
@@ -49,10 +74,9 @@ https://techgenix.com/understanding-man-in-the-middle-attacks-arp-part1/
 
 
 
-
-
-
 ![image](https://user-images.githubusercontent.com/94558947/157911553-5e992dfb-2077-47fa-baba-45b499d59914.png)
+
+
 
 
 ## Demo1 - ARP Spoofing
