@@ -147,6 +147,36 @@ www.yahoo.com
 
 
 
+### Evaluation Criteria
+#### Presentations
+= Background
+- adequately explain
+. what the tool does
+. how it does it
+. who users it or want to use it
+. why it would be useful
+. what is the real-world impact
+
+= Technical merit
+. contain an adequate degree of technical content(graph, charts etc)
+. key concepts explained?
+
+= Delivery : presentation
+. presentation interesting/effective?
+. slides clear and visually appealing?
+. presentation complete on time?
+
+#### Presentation notes
+= Content
+make use of a variety of rich content (e.g., hyperlins, code snippets, etc)?
+
+= Technical merit
+. contain an adequate degree of technical content(graph, charts etc)
+. key concepts explained?
+
+= References
+. select and cite appropriate references that would allow the readers
+to get up to speed on the topic?
+Note, markdown supports footnotes like this:
 Some long sentence. [^footnote]
 [^footnote]: Test, [Link](https://google.com).
-
