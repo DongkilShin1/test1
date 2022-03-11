@@ -34,14 +34,17 @@ https://securityboulevard.com/2019/10/what-is-dns-cache-poisoning/
 = Intercept Username/Password with ARP Spoofing
 
 - Kali linux
+
 . ifconfig
 . route -n
 . nmap -sP 192.168.163.0/34
 
 - Windows
+
 . ipconfig
 
 - Kali linux
+
 . Ettercap execute
 . Accept
 Starting Unified sniffing...
