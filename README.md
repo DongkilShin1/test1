@@ -1,21 +1,31 @@
 # Ettercap
-## Overview
-Ettercap is one of packet analyzers such as wireshark, tcpdump. It is also called as a packet sniffer because it is capable of intercepting data streams which flow on computer networks, and these captured packets are decoded and analyzed through proper RFCs or protocols by the tool. Therefore, it can be used as a tool for man-in-the-middle (MITM) attacks on local area network (LAN). By default, it has the ability to filter packets, collect passwords, and conduct eavesdropping. Moreover, its features can be extended by custom plugins using its API as it has plugin suppport.
+## Background
+[Ettercap](https://en.wikipedia.org/wiki/Ettercap_(software)) is one of packet analyzers such as wireshark, tcpdump. It is also called as a packet sniffer because it is capable of intercepting data streams which flow on computer networks, and these captured packets are decoded and analyzed through proper RFCs or protocols by the tool. Therefore, it can be used as a tool for man-in-the-middle (MITM) attacks on local area network (LAN). By default, it has the ability to conduct eavesdropping, filter packets and collect passwords. Moreover, its features can be extended by custom plugins using its API as it has plugin suppport. It works by putting its network interface into promiscuous mode (pass its traffic of interface to CPU) and by ARP poisoning the target machines. It also has the ability to actively or passively find other poisoners on the LAN.
 
-## 
+## ARP (Address Resolution Protocol)
+ARP  is one of important protocols of the network layer in the OSI Model. It translates physical address (MAC) of a device to logical address(IP), and vice-versa. It allows devices to communicate to each other on LAN by mapping IP address to its MAC address of a device. For example, a device on a network communicates with a gateway (or a AP) using ARP to connect to the Internet.
+
+![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
+
+## ARP Spoofing (ARP cache Poisoing)
+
+
+## DNS Spoofing (DNS cache Poisoing)
 
 
 
-![image](https://user-images.githubusercontent.com/94558947/157911656-5823440b-e4f2-4443-a993-2268d191c7b0.png)
+
 
 
 
 ![image](https://user-images.githubusercontent.com/94558947/157911553-5e992dfb-2077-47fa-baba-45b499d59914.png)
 
 
-
+## Demo1 - ARP Spoofing
 https://user-images.githubusercontent.com/94558947/157906680-e8c380f6-9abc-4374-9075-e506e8f8066d.mp4
 
+
+## Demo2 - DNS Spoofing
 https://user-images.githubusercontent.com/94558947/157905659-5f66594b-eb3f-45fd-aa77-bf0e0e09e29c.mp4
 
 - echo "Fake Web Site" > index.html
@@ -32,6 +42,9 @@ https://securityboulevard.com/2019/10/what-is-dns-cache-poisoning/
 
 https://github.com/svecile/Airgeddon_Notes/blob/main/README.md
 
+
+
+## Demo1 Description
 
 = Intercept Username/Password with ARP Spoofing
 
@@ -94,7 +107,7 @@ Starting Unified sniffing
 
 Check contents on Ettercap
 
-
+## Demo2 Description
 = Redirect intended to a website with DNS Spoofing
 
 - Kali linux
