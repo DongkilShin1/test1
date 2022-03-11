@@ -27,3 +27,6 @@ https://user-images.githubusercontent.com/94558947/157905659-5f66594b-eb3f-45fd-
 
 - echo 1 > /proc/sys/net/ipv4/ip_forward
 - cat /proc/sys/net/ipv4/ip_forward
+
+
+
