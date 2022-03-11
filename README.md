@@ -6,11 +6,11 @@ Ettercap is one of packet analyzers such as wireshark, tcpdump. It is also calle
 
 
 
-![image](https://user-images.githubusercontent.com/94558947/157905357-82de4fac-96a1-457b-8496-20ad011c9186.png)
+![image](https://user-images.githubusercontent.com/94558947/157911656-5823440b-e4f2-4443-a993-2268d191c7b0.png)
 
 
 
-![image](https://user-images.githubusercontent.com/94558947/157905160-0b800108-c3ad-4eda-815a-a7c67b7de545.png)
+![image](https://user-images.githubusercontent.com/94558947/157911553-5e992dfb-2077-47fa-baba-45b499d59914.png)
 
 
 
