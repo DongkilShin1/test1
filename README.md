@@ -30,57 +30,56 @@ https://user-images.githubusercontent.com/94558947/157905659-5f66594b-eb3f-45fd-
 
 https://securityboulevard.com/2019/10/what-is-dns-cache-poisoning/
 
+https://github.com/svecile/Airgeddon_Notes/blob/main/README.md
+
 
 = Intercept Username/Password with ARP Spoofing
 
 - Kali linux
+     
+     ifconfig
 
-ifconfig
+     route -n
 
-route -n
-
-nmap -sP 192.168.163.0/34
+     nmap -sP 192.168.163.0/34
 
 - Windows
 
-ipconfig
+     ipconfig
 
 - Kali linux
 
 Ettercap execute
 
 Accept
-
-. Starting Unified sniffing...
-
+```
+Starting Unified sniffing...
+```
 Stop sniffing
-
-. Unified sniffing was stopped.
-
+```
+Unified sniffing was stopped
+```
 Scan Hosts
-
-. Scanning the whole netmask for 255 hosts...
-
+```
+Scanning the whole netmask for 255 hosts
+```
 Hostlist
 
 Add Target
-
-. Host 192.168.163.130 added to TARGET1
-
-. Host 192.168.163.2 added to TARGET2
-
+```
+Host 192.168.163.130 added to TARGET1
+Host 192.168.163.2 added to TARGET2
+```
 MITM menu - Start ARP poisoning
-
-. ARP poisoning victims:
-
-. GROUP 1 : 192.168.163.130 00:0C:29:2A:FB:EF
-
-. GROUP 2 : 192.168.163.2 00:50:56:FD:0A:5B
-
+```
+ARP poisoning victims:
+GROUP 1 : 192.168.163.130 00:0C:29:2A:FB:EF
+GROUP 2 : 192.168.163.2 00:50:56:FD:0A:5B
+```
 Start sniffing
-
-. Starting Unified sniffing
-
+```
+Starting Unified sniffing
+```
 - Windows
 
 . Webpage - vulnweb.com
