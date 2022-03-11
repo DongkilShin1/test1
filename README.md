@@ -35,100 +35,101 @@ https://securityboulevard.com/2019/10/what-is-dns-cache-poisoning/
 
 - Kali linux
 
-. ifconfig
+ifconfig
 
-. route -n
+route -n
 
-. nmap -sP 192.168.163.0/34
+nmap -sP 192.168.163.0/34
 
 - Windows
 
-. ipconfig
+ipconfig
 
 - Kali linux
 
-. Ettercap execute
+Ettercap execute
 
-. Accept
+Accept
 
-Starting Unified sniffing...
+. Starting Unified sniffing...
 
-. Stop sniffing
+Stop sniffing
 
-Unified sniffing was stopped.
+. Unified sniffing was stopped.
 
-. Scan Hosts
+Scan Hosts
 
-Scanning the whole netmask for 255 hosts...
+. Scanning the whole netmask for 255 hosts...
 
-. Hostlist
+Hostlist
 
-. Add Target
+Add Target
 
-Host 192.168.163.130 added to TARGET1
+. Host 192.168.163.130 added to TARGET1
 
-Host 192.168.163.2 added to TARGET2
+. Host 192.168.163.2 added to TARGET2
 
-. MITM menu - Start ARP poisoning
+MITM menu - Start ARP poisoning
 
-ARP poisoning victims:
+. ARP poisoning victims:
 
-GROUP 1 : 192.168.163.130 00:0C:29:2A:FB:EF
+. GROUP 1 : 192.168.163.130 00:0C:29:2A:FB:EF
 
-GROUP 2 : 192.168.163.2 00:50:56:FD:0A:5B
+. GROUP 2 : 192.168.163.2 00:50:56:FD:0A:5B
 
-. Start sniffing
+Start sniffing
 
-Starting Unified sniffing
+. Starting Unified sniffing
 
-. Windows
+- Windows
 
-Webpage - vulnweb.com
+. Webpage - vulnweb.com
 
-testphp.vulnweb.com
+. testphp.vulnweb.com
 
-singup
+. singup
 
-login
+. login
 
 - Kali linux
 
-. Check contents on Ettercap
+Check contents on Ettercap
+
 
 = Redirect intended to a website with DNS Spoofing
 
 - Kali linux
 
-. cd /var/www/html
+cd /var/www/html
 
-. cat index.html
+cat index.html
 
-. service apache2 restart
+service apache2 restart
 
-. service apache2 status
+service apache2 status
 
-Active: active (running)
+. Active: active (running)
 
-. vi /etc/ettercap/etter.dns
+vi /etc/ettercap/etter.dns
 
-. ARP poisoning stop
+ARP poisoning stop
 
-. dns_spoof start on plugin
+dns_spoof start on plugin
 
-Activating dns_spoof plugin
+. Activating dns_spoof plugin
 
-. ARP poisoning start
-Starting Unified sniffing
+ARP poisoning start
+. Starting Unified sniffing
 
 - Windows
 
-. delete dns cache
+Delete dns cache
 
-ipconfig /flushdns
+. ipconfig /flushdns
 
-. delete web cache on browser
+Delete web cache on browser
 
-. reconnect to the site
+Reconnect to the site
 
 www.yahoo.com
 
