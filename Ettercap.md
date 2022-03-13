@@ -4,18 +4,14 @@
 ## How does Ettercap work?
 ### How to install Ettercap
 On Kali Linux
-
+```
 sudo apt install ettercap-common
-
+```
 On Ubuntu
-
+```
 sudo apt install ettercap-gtk
-
+```
 On Fedora
-
+```
 sudo yum install ettercap-gtk
-
-
-
-
-sudo yum install ettercap-gtk
+```
