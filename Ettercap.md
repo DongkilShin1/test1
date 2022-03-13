@@ -91,18 +91,16 @@ Thus, these targets send all their traffic to Ettercap and it enables Ettercap t
 
 Here is also ARP table (Before and After ARP Poisoning) captured on Target1(Windows10)
 
-![image](https://user-images.githubusercontent.com/94558947/158046165-9de4138f-9703-4eae-9ea8-024eb85be055.png)
+![image](https://user-images.githubusercontent.com/94558947/158046330-034790d8-80d8-4802-a019-7b2db4a9fe74.png)
 
 ### How to start ARP Poisoning
 
-dfdfdf
+These are steps to start ARP Poisoning and sniffing on Ettercap from scratch. You can refer to 2 min video at the bottom to know the whole process.
 
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
-
-https://user-images.githubusercontent.com/94558947/158044956-401f34b2-09ac-4f0c-86c8-eb75f7f5ac92.mp4
-
 
 ## Risk Mitigation
 
 fdfd
 
+https://user-images.githubusercontent.com/94558947/158044956-401f34b2-09ac-4f0c-86c8-eb75f7f5ac92.mp4
