@@ -59,12 +59,14 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
 
 **ARP Request and ARP Reply/Response**
 
-1. Target1(192.168.163.130-fb-ef) is asking "Who has 192.168.163.2? Tell 192.168.163.130".
-2. Ettercap(192.168.163.134-f9-35) is sending response to Target1(192.168.163.130-fb-ef) that "192.168.163.2 is at 00-50-56-fd-0a-5b". 
-3. Also Ettercap(192.168.163.134-f9-35) is sending message to Target2(192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-2a-fb-ef". 
+1. Target1(W:192.168.163.130-fb-ef) is asking "Who has 192.168.163.2? Tell 192.168.163.130".
+2. Ettercap(K:192.168.163.134-f9-35) is sending response to Target1(W:192.168.163.130-fb-ef) that "192.168.163.2 is at 00-50-56-fd-0a-5b". 
+3. Also Ettercap(K:192.168.163.134-f9-35) is sending message to Target2(G:192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-2a-fb-ef". 
+
 It is normal ARP request and ARP reply. However, when ARP Poisoning is started, 
-4. Ettercap(192.168.163.134-f9-35) is sending to Target1(192.168.163.130-fb-ef) that "192.168.163.2 is at 00-0c-29-78-f9-35" which is Ettercap itself MAC address
-5. Also Ettercap(192.168.163.134-f9-35) is sending to Target2(192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-78-f9-35". 
+4. Ettercap(K:192.168.163.134-f9-35) is sending to Target1(W:192.168.163.130-fb-ef) that "192.168.163.2 is at 00-0c-29-78-f9-35" which is Ettercap itself MAC address
+5. Also Ettercap(K:192.168.163.134-f9-35) is sending to Target2(G:192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-78-f9-35".
+ 
 These are fake ARP replies to Target1 and Target2. So, with these information, ARP cache table in Target1(Windows10) and Target2(Gateway) is update as following.
 
 ARP cache table in Target1(Windows10)
@@ -76,13 +78,9 @@ ARP cache table in Target2(Gateway)
 Thus, these targets send all their traffic to Ettercap and it is able to sniff them.
 You can check the captured picture from wireshark as below.
 
-**ARP Request**
-When Host A wants to communicate to Host who has IP 192.168.0.1, a broadcast message "MAC address 00:00:00:00:00:00" is sent from Host A to all hosts on the network asking who has "IP 192.168.0.1" 
+![image](https://user-images.githubusercontent.com/94558947/158044979-45870b00-63f0-40bd-be7b-222ac7d7ee8d.png)
 
-**ARP Reply**
-Then Host D replies with "I have 192.168.0.1 and my MAc address is 02:f2:02:f2:02:f2".
 
-Based on these ARP request and reply, ***ARP cache table*** in Target1(Windows10) and Target2(Gatewa) will be updated.
 
 
 
@@ -92,7 +90,7 @@ Based on these ARP request and reply, ***ARP cache table*** in Target1(Windows10
 
 
 
-![image](https://user-images.githubusercontent.com/94558947/158044979-45870b00-63f0-40bd-be7b-222ac7d7ee8d.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/94558947/158044996-a2103382-900b-4de0-b456-844d398d6e10.png)
