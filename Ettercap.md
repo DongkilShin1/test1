@@ -41,7 +41,7 @@ ec_gid = 0 # nobody is the default
 ### How to use Ettercap (Example: How to start ARP Poisoning)
 Please, refer to the below section, how to start ARP Poisoning in the Demo Section.
 
-## Demo - ARP Poisoning
+## Demo - ARP Poisoning with Ettercap
 ### Scenario
 
 ![image](https://user-images.githubusercontent.com/94558947/158044372-86817dee-60a7-4bf0-afb3-5516c4338a8b.png)
