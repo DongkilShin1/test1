@@ -68,11 +68,11 @@ It is normal ARP request and ARP reply. However, when ARP Poisoning is started,
 4. Ettercap(K:192.168.163.134-f9-35) is sending to Target1(W:192.168.163.130-fb-ef) that "192.168.163.2 is at 00-0c-29-78-f9-35" which is Ettercap itself MAC address.
 5. Also Ettercap(K:192.168.163.134-f9-35) is sending to Target2(G:192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-78-f9-35".
  
-These are fake ARP replies to Target1 and Target2.
+These are fake ARP replies to Target1 and Target2. You can check the captured picture from wireshark as below.
 
 ![image](https://user-images.githubusercontent.com/94558947/158045704-7512efa8-9eb9-46b1-a9c1-1a8c3941077d.png)
 
-So, with these information, ARP cache table in Target1(Windows10) and Target2(Gateway) is update as following.
+So, with these information, ARP cache table in Target1(Windows10) and Target2(Gateway) is updated as following.
 
 ARP cache table in Target1(Windows10)
 
@@ -88,7 +88,7 @@ ARP cache table in Target2(Gateway)
 | 192.168.163.134| 00-0c-29-78-f9-35|
 
 Thus, these targets send all their traffic to Ettercap and it is able to sniff them.
-You can check the captured picture from wireshark as below.
+
 
 
 
