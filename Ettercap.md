@@ -55,7 +55,7 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
      - Ettercap **Target2**: VMware **Gateway**
 - Test Web site (**Http**): www.vulnweb.com
 
-### ARP Poisoning Details in Demo
+### ARP Poisoning Demo Details
 
 **ARP Request and ARP Reply/Response**
 
