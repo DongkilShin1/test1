@@ -82,7 +82,7 @@ ARP cache table in Target1(Windows10)
 | 192.168.163.134| 00-0c-29-78-f9-35|
 
 ARP cache table in Target2(Gateway)
-| Tables        | Are           |
+| IP            | MAC               |
 | ------------- |:-------------:|
 | 192.168.163.130| 00-0c-29-78-f9-35|
 | 192.168.163.134| 00-0c-29-78-f9-35|
