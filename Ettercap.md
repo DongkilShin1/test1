@@ -1,7 +1,5 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-https://www.kali.org/tools/ettercap/
-
 https://github.com/svecile/Airgeddon_Notes/blob/main/README.md
 
 # Ettercap
@@ -95,12 +93,24 @@ Here is also ARP table (Before and After ARP Poisoning) captured on Target1(Wind
 
 ### How to start ARP Poisoning
 
-These are steps to proceed ARP Poisoning and sniffing on Ettercap from scratch. You can refer to 2 min video at the bottom to know the whole process.
+These are steps to proceed ARP Poisoning and sniffing on Ettercap from scratch. You can refer to 2 min demo video at the bottom to know the whole process.
 
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
 
 ## Risk Mitigation
 
-fdfd
+For the prevention methods on security issues, there are several things. First, before logging on websites, you should check if the websites are using HTTPS in the URL. Second, it is better to use secured networks using encrypt protocols like VPN. Plus, you can implement some security solutions or equipment such as IDS(Intrusion Detection Systems) and attacker detection software like ARPcop(Ettercap plugin), etc. Lastly, it is recommended that users keep eyes on security web sites updated with latest information like NVD(NIST), OWASP.org, etc.
+
+## References
+
+https://www.kali.org/tools/ettercap/
+
+https://kalitut.com/how-to-use-ettercap/
+
+https://techgenix.com/Understanding-Man-in-the-Middle-Attacks-ARP-Part2/
+
+https://www.comparitech.com/blog/information-security/arp-poisoning-spoofing-detect-prevent/
+
+## Demo Video
 
 https://user-images.githubusercontent.com/94558947/158044956-401f34b2-09ac-4f0c-86c8-eb75f7f5ac92.mp4
