@@ -26,6 +26,6 @@ sudo vi /etc/ettercap/etter.conf
 ```
 
 ```
-ec_uid = ***0*** # nobody is the default
-ec_gid = ***0*** # nobody is the default
+ec_uid = 0 # nobody is the default
+ec_gid = 0 # nobody is the default
 ```
