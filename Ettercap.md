@@ -50,7 +50,6 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
 - 2 Virtual Machines on VMware
      - Normal User (**Victim**): Windows 10
      - Malicious User (**Attacker**): Kali Linux
-
 - Ettercap installed on Kali Linux
      - Ettercap **Target1**: **Window 10**
      - Ettercap **Target2**: VMware **Gateway**
