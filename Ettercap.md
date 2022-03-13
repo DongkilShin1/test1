@@ -48,9 +48,14 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
 
 ### Environment
 - 2 Virtual Machines on VMware
-     - Normal
+     - Normal User (**Victim**): Windows 10
+     - Malicious User (**Attacker**): Kali Linux
+- Ettercap installed on Kali Linux
+     - Ettercap **Target1**: **Window 10**
+     - Ettercap **Target2**: VMware **Gateway**
+- Test Web site (**Http**): www.vulnweb.com
 
-**PSK = Hash_Function(Wi-Fi password + Wi-Fi SSID, Length of SSID + 4096 iterations of SHA1)**
+
 
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
 
