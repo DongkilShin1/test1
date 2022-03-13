@@ -33,6 +33,6 @@ ec_gid = 0 # nobody is the default
 ```
 
 ### How to use Ettercap (Example: How to start ARP Poisoning)
-![image](https://user-images.githubusercontent.com/94558947/158043085-3c60bdab-ccfb-4110-9e0f-15886254f950.png)
+![image](https://user-images.githubusercontent.com/94558947/158043121-379eabd4-d812-430f-8c6b-fa9bfe8cc6e5.png)
 
 
