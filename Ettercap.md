@@ -93,25 +93,16 @@ Here is also ARP table (Before and After ARP Poisoning) captured on Target1(Wind
 
 ![image](https://user-images.githubusercontent.com/94558947/158046165-9de4138f-9703-4eae-9ea8-024eb85be055.png)
 
+### How to start ARP Poisoning
 
-
-
+dfdfdf
 
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
-
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/94558947/158044996-a2103382-900b-4de0-b456-844d398d6e10.png)
-
-
 
 https://user-images.githubusercontent.com/94558947/158044956-401f34b2-09ac-4f0c-86c8-eb75f7f5ac92.mp4
 
 
 ## Risk Mitigation
+
+fdfd
 
