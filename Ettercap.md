@@ -58,6 +58,7 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
 ### ARP Poisoning Details in Demo
 
 **ARP Request and ARP Reply/Response**
+
 First, Target1(192.168.163.130-fb-ef) is asking "Who has 192.168.163.2? Tell 192.168.163.130". Ettercap(192.168.163.134-f9-35) is sending response to Target1(192.168.163.130-fb-ef) that "192.168.163.2 is at 00-50-56-fd-0a-5b". And also Ettercap(192.168.163.134-f9-35) is sending message to Target2(192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-2a-fb-ef". It is normal ARP request and ARP reply. However, when ARP Poisoning is started, Ettercap(192.168.163.134-f9-35) is sending to Target1(192.168.163.130-fb-ef) that "192.168.163.2 is at 00-0c-29-78-f9-35" which is Ettercap itself MAC address and also Ettercap(192.168.163.134-f9-35) is sending to Target2(192.168.163.2-0a-5b) that "192.168.163.130 is at 00-0c-29-78-f9-35". These are fake ARP replies to Target1 and Target2. So, with these information, ARP cache table in Target1(Windows10) and Target2(Gateway) is update as following.
 
 ARP cache table in Target1(Windows10)
