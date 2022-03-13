@@ -57,6 +57,17 @@ Please, refer to the below section, how to start ARP Poisoning in the Demo Secti
 
 ### ARP Poisoning Details in Demo
 
+**ARP Request and ARP Reply/Response**
+
+
+**ARP Request**
+When Host A wants to communicate to Host who has IP 192.168.0.1, a broadcast message "MAC address 00:00:00:00:00:00" is sent from Host A to all hosts on the network asking who has "IP 192.168.0.1" 
+
+**ARP Reply**
+Then Host D replies with "I have 192.168.0.1 and my MAc address is 02:f2:02:f2:02:f2".
+
+Based on these ARP request and reply, ***ARP cache table*** in Host A will be updated.
+
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
 
 
