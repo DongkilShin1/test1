@@ -89,6 +89,11 @@ ARP cache table in Target2(Gateway)
 
 Thus, these targets send all their traffic to Ettercap and it enables Ettercap to sniff them.
 
+Here is also ARP table (Before and After ARP Poisoning) on Target1(Windows10)
+
+![image](https://user-images.githubusercontent.com/94558947/158046165-9de4138f-9703-4eae-9ea8-024eb85be055.png)
+
+
 
 
 
