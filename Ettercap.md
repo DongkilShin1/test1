@@ -95,7 +95,7 @@ Here is also ARP table (Before and After ARP Poisoning) captured on Target1(Wind
 
 ### How to start ARP Poisoning
 
-These are steps to start ARP Poisoning and sniffing on Ettercap from scratch. You can refer to 2 min video at the bottom to know the whole process.
+These are steps to proceed ARP Poisoning and sniffing on Ettercap from scratch. You can refer to 2 min video at the bottom to know the whole process.
 
 ![image](https://user-images.githubusercontent.com/94558947/158043164-b2d1ad5e-1e0b-449c-b3d1-1def6abbf835.png)
 
