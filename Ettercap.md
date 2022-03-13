@@ -15,3 +15,15 @@ On Fedora
 ```
 sudo yum install ettercap-gtk
 ```
+Before using it, a few settings should be changed in the conf file.
+First, ec_uid and ec_gid must be set to 0 in order for the program to work on behalf of the superuser
+:
+
+```
+sudo vi /etc/ettercap/etter.conf
+```
+
+```
+ec_uid = 0 # nobody is the default
+ec_gid = 0 # nobody is the default
+```
