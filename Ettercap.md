@@ -87,7 +87,7 @@ ARP cache table in Target2(Gateway)
 | 192.168.163.130| 00-0c-29-78-f9-35|
 | 192.168.163.134| 00-0c-29-78-f9-35|
 
-Thus, these targets send all their traffic to Ettercap and it is able to sniff them.
+Thus, these targets send all their traffic to Ettercap and it enables Ettercap to sniff them.
 
 
 
