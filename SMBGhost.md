@@ -25,6 +25,8 @@ nmap -O -sV 192.168.163.135
 
 ### 2. Check vulnerability with python script
 
+The attacker checks with python script whether the target has SMBv3 enabled. 
+
 ![image](https://user-images.githubusercontent.com/94558947/160342760-43cc9038-3e36-4566-9d86-ff337fce9f99.png)
 
 ```
@@ -33,6 +35,8 @@ python3 scanner.py 192.168.163.135
 
 ### 3. Attack vulnerability with python script
 
+The attacker sends the manipulated SMB compress packet to target. At first, the victim's pc is still alive.
+
 ![image](https://user-images.githubusercontent.com/94558947/160342523-1ce6ab35-064a-4a86-9682-00294e380100.png)
 
  ```
@@ -40,6 +44,8 @@ python3 crash.py 192.168.163.135
 ```
 
 ### 4. Blue Screen on target PC
+
+Finally, it occurs blue screen on the victim's PC through the attack.
 
 ![image](https://user-images.githubusercontent.com/94558947/160342620-d9820b07-041b-4069-ae58-3505f7d7b5a7.png)
 
