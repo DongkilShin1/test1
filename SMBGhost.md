@@ -45,7 +45,7 @@ python3 crash.py 192.168.163.135
 
 ### 4. Blue Screen on target PC
 
-Finally, it occurs blue screen on the victim's PC through the attack.
+Finally, attack occurs blue screen on the victim's PC.
 
 ![image](https://user-images.githubusercontent.com/94558947/160342620-d9820b07-041b-4069-ae58-3505f7d7b5a7.png)
 
