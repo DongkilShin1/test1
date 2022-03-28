@@ -5,7 +5,7 @@ The CVE-2020-0796 (SMBGhost) vulnerability causes an integer overflow in the pro
 ## Demo Scenario
 In the scenario, first an attacker search a target by scan network, and after finding the target, the attacker check if the target pc is Windows system and it open SMB port, 445. Then, the attacker check if the user has SMBv3 which is vulnerability enabled with a script. Next, he sends manipulated SMB compress packet to the target. Finally, the attack occurs Blue Screeen in the user's PC.
 
-![image](https://user-images.githubusercontent.com/94558947/160326819-d96beb07-7ff7-448e-916d-8b0efb428877.png)
+![image](https://user-images.githubusercontent.com/94558947/160330035-643c247b-eb10-468e-a5c0-c485a6e337fc.png)
 
 ### 1.
 On Kali Linux
