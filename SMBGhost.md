@@ -35,7 +35,9 @@ python3 scanner.py 192.168.163.135
 
 ![image](https://user-images.githubusercontent.com/94558947/160342523-1ce6ab35-064a-4a86-9682-00294e380100.png)
 
- 
+ ```
+python3 crash.py 192.168.163.135
+```
 
 ### 4. Blue Screen on target PC
 
