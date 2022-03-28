@@ -2,8 +2,11 @@
 
 The CVE-2020-0796 (SMBGhost) vulnerability causes an integer overflow in the process of dealing with OriginalSize and Offset inside the Srv2!Srv2DecompressData function that processes compressed messages in the Microsoft SMB 3.1.1 (SMBV3) protocol. The vulnerability could result in system failure, privilege escalation, and remote code execution. In this demo, system failure by blue screen is reproduced.
 
-## What is Ettercap?
+## Demo Scenario
 [Ettercap](https://en.wikipedia.org/wiki/Ettercap_(software)) is originally one of packet analyzers such as wireshark, tcpdump. However, tt is commonly called as a packet sniffer because it is capable of intercepting data streams which flow on computer networks, and these captured packets are decoded and analyzed through proper RFCs or protocols by the tool. Therefore, it can be used as a tool for man-in-the-middle ***(MITM)*** attacks on local area network (LAN). By default, it has the ability to conduct eavesdropping, filter packets and collect passwords. Moreover, its features can be extended by custom plugins using its API as it has plugin suppport. It works by putting its network interface into promiscuous mode (pass its traffic of interface to CPU) and by ***ARP poisoning*** the target machines. It also has the ability to actively or passively find other poisoners on the LAN.
+
+![image](https://user-images.githubusercontent.com/94558947/160326819-d96beb07-7ff7-448e-916d-8b0efb428877.png)
+
 
 ## How does Ettercap work?
 Ettercap is basically Unix-like based program. It is installed on Linux, BSD and MacOS. However, Windows is not supported by it. For network interface cards, most network cards can suitable if these works without any problem on OS system. The network card should be promiscuous mode which allows a network interface to pass all traffic through it to CPU for capturing and analyzing data streams. Ettercap is working on wired and wireless local area networks. 
