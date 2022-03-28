@@ -1,4 +1,4 @@
-# CVE-2020-0796 (SMBGhost)
+# CVE-2020-0796 (SMBGhost) Demo
 
 The CVE-2020-0796 (SMBGhost) vulnerability causes an integer overflow in the process of dealing with OriginalSize and Offset inside the Srv2!Srv2DecompressData function that processes compressed messages in the Microsoft SMB 3.1.1 (SMBV3) protocol. The vulnerability could result in system failure, privilege escalation, and remote code execution. In this demo, system failure by blue screen is reproduced.
 
