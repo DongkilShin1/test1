@@ -31,7 +31,7 @@ nmap -O -sV 192.168.163.135
 python3 scanner.py 192.168.163.135
 ```
 
-### 3. Check vulnerability with python script
+### 3. Attack vulnerability with python script
 
 ![image](https://user-images.githubusercontent.com/94558947/160342523-1ce6ab35-064a-4a86-9682-00294e380100.png)
 
