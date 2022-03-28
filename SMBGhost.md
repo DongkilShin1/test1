@@ -3,23 +3,30 @@
 The CVE-2020-0796 (SMBGhost) vulnerability causes an integer overflow in the process of dealing with OriginalSize and Offset inside the Srv2!Srv2DecompressData function which processes compressed messages in the Microsoft SMB 3.1.1 (SMBV3) protocol. The vulnerability could result in system failure, privilege escalation, and remote code execution. In this demo, system failure of blue screen is reenacted.
 
 ## Demo Scenario
-In the scenario, first, an attacker search a target by scan network, and after finding the target, the attacker check if the target pc is Windows system and it open SMB port, 445. Then, the attacker check if the user has SMBv3 which is vulnerability enabled with a script. Next, he sends manipulated SMB compress packet to the target. Finally, the attack occurs Blue Screeen in the user's PC.
+In the scenario, first, an attacker searches a target by scan network, and after finding the target, the attacker checks if the target pc is Windows system and it open SMB port which is 445 port. Then, he checks if the user has SMBv3 which is vulnerability enabled with a script. Next, he sends manipulated SMB compress packet to the target. Finally, the attack occurs Blue Screeen in the user's PC.
 
 ![image](https://user-images.githubusercontent.com/94558947/160330035-643c247b-eb10-468e-a5c0-c485a6e337fc.png)
 
-### 1.
-On Kali Linux
+### 1. Search a target and check SMB port
+
+Scan hosts
+
 ```
-sudo apt install ettercap-common
+nmap -sP 192.168.163.0/24
 ```
-On Ubuntu
+![image](https://user-images.githubusercontent.com/94558947/160330817-cd520b5e-7cb8-4f9c-95fe-aab55ac674d4.png)
+
+Check OS system and ports
+
 ```
-sudo apt install ettercap-gtk
+nmap -O -sV 192.168.163.135
 ```
-On Fedora
-```
-sudo yum install ettercap-gtk
-```
+![image](https://user-images.githubusercontent.com/94558947/160330983-c9135bb7-bdea-49ff-8b38-369a85c0a9fb.png)
+
+
+
+
+
 Before using it, a few settings should be changed in the conf file.
 First, ec_uid and ec_gid must be set to 0 in order for the program to work on behalf of the superuser
 :
