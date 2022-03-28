@@ -9,14 +9,14 @@ In the scenario, first, an attacker searches a target by scan network, and after
 
 ### 1. Search a target and check SMB port
 
-**. Scan hosts**
+**1.1 Scan hosts**
 
 ```
 nmap -sP 192.168.163.0/24
 ```
 ![image](https://user-images.githubusercontent.com/94558947/160330817-cd520b5e-7cb8-4f9c-95fe-aab55ac674d4.png)
 
-**. Check OS system and ports**
+**1.2 Check OS system and ports**
 
 ```
 nmap -O -sV 192.168.163.135
