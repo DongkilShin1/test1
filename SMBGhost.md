@@ -7,11 +7,7 @@ The CVE-2020-0796 (SMBGhost) vulnerability causes an integer overflow in the pro
 
 ![image](https://user-images.githubusercontent.com/94558947/160326819-d96beb07-7ff7-448e-916d-8b0efb428877.png)
 
-
-## How does Ettercap work?
-Ettercap is basically Unix-like based program. It is installed on Linux, BSD and MacOS. However, Windows is not supported by it. For network interface cards, most network cards can suitable if these works without any problem on OS system. The network card should be promiscuous mode which allows a network interface to pass all traffic through it to CPU for capturing and analyzing data streams. Ettercap is working on wired and wireless local area networks. 
-
-### How to install Ettercap and What settings to be changed to use
+### 1.
 On Kali Linux
 ```
 sudo apt install ettercap-common
@@ -37,10 +33,12 @@ ec_uid = 0 # nobody is the default
 ec_gid = 0 # nobody is the default
 ```
 
+## How does Ettercap work?
+Ettercap is basically Unix-like based program. It is installed on Linux, BSD and MacOS. However, Windows is not supported by it. For network interface cards, most network cards can suitable if these works without any problem on OS system. The network card should be promiscuous mode which allows a network interface to pass all traffic through it to CPU for capturing and analyzing data streams. Ettercap is working on wired and wireless local area networks. 
+
 ### How to use Ettercap (Example: How to start ARP Poisoning)
 Please, refer to the below section, how to start ARP Poisoning in the Demo Section.
 
-## Demo - ARP Poisoning with Ettercap
 ### Scenario
 
 ![image](https://user-images.githubusercontent.com/94558947/158044372-86817dee-60a7-4bf0-afb3-5516c4338a8b.png)
