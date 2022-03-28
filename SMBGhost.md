@@ -25,20 +25,20 @@ nmap -O -sV 192.168.163.135
 
 ### 2. Check vulnerability with python script
 
-Before using it, a few settings should be changed in the conf file.
-First, ec_uid and ec_gid must be set to 0 in order for the program to work on behalf of the superuser
-:
+![image](https://user-images.githubusercontent.com/94558947/160342257-33e383a5-2602-4176-8ecd-675ee722a98e.png)
 
 ```
-sudo vi /etc/ettercap/etter.conf
+python3 scanner.py 192.168.163.135
 ```
 
 ### 3. Check vulnerability with python script
 
-## How does Ettercap work?
-Ettercap is basically Unix-like based program. It is installed on Linux, BSD and MacOS. However, Windows is not supported by it. For network interface cards, most network cards can suitable if these works without any problem on OS system. The network card should be promiscuous mode which allows a network interface to pass all traffic through it to CPU for capturing and analyzing data streams. Ettercap is working on wired and wireless local area networks. 
+![image](https://user-images.githubusercontent.com/94558947/160342523-1ce6ab35-064a-4a86-9682-00294e380100.png)
 
-### How to use Ettercap (Example: How to start ARP Poisoning)
-Please, refer to the below section, how to start ARP Poisoning in the Demo Section.
+ 
+
+### 4. Check vulnerability with python script
+
+![image](https://user-images.githubusercontent.com/94558947/160342620-d9820b07-041b-4069-ae58-3505f7d7b5a7.png)
 
 
