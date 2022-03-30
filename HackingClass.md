@@ -30,3 +30,8 @@ https://www.imperva.com/learn/application-security/penetration-testing/?redirect
 https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
 
 https://excess-xss.com/
+
+# WEEK3
+
+https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
+
