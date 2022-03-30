@@ -4,3 +4,9 @@
 ## Chrome Developer Tools Tutorial
 
 https://developer.chrome.com/docs/devtools/
+
+## Linux File Permissions
+
+https://wiki.archlinux.org/title/File_permissions_and_attributes
+
+
