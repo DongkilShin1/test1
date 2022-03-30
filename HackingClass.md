@@ -38,14 +38,14 @@ https://excess-xss.com/
 https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
 
 
-# WEEK4 - Hacking Networks
+# WEEK4 - Hacking Networks (Exploitation, Metasploit, Bofs)
 
 
 # WEEK5 - Hacking Systems
 
 
 
-# WEEK6 - Hacking Software
+# WEEK6 - Hacking Software (Buffer Overflow)
 
 
 # WEEK7 - Hacking Wifi
@@ -63,3 +63,8 @@ https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
 # Assignment4
 
 
+# Presentation
+## SQL injection
+https://github.com/Ant1n0/sql_injection/blob/b80eb0fe98296db7a322c4e8c3fc8de563551f1a/README.MD.md
+
+https://github.com/yazan828/CVE-2017-1000004
