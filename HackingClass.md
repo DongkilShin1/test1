@@ -12,3 +12,7 @@ https://wiki.archlinux.org/title/File_permissions_and_attributes
 ## Bash Cheatsheet
 
 https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
+
+## Regular Expressions
+
+http://www.robelle.com/smugbook/regexpr.html
