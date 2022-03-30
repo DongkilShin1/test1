@@ -13,6 +13,20 @@ https://wiki.archlinux.org/title/File_permissions_and_attributes
 
 https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
 
-## Regular Expressions
+## PicoCTF, OSI Model, Crash Course on JavaScript
 
-http://www.robelle.com/smugbook/regexpr.html
+https://play.picoctf.org/login
+
+https://en.wikipedia.org/wiki/OSI_model
+
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET
+
+# WEEK2
+
+https://whisperlab.org/introduction-to-hacking/lectures/hacking-ethics
+
+https://www.imperva.com/learn/application-security/penetration-testing/?redirect=Incapsula
+
+https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
+
+https://excess-xss.com/
