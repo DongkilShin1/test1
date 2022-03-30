@@ -41,3 +41,25 @@ https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
 # WEEK4 - Hacking Networks
 
 
+# WEEK5 - Hacking Systems
+
+
+
+# WEEK6 - Hacking Software
+
+
+# WEEK7 - Hacking Wifi
+
+
+# Assignment1
+
+
+# Assignment2
+
+
+# Assignment3
+
+
+# Assignment4
+
+
