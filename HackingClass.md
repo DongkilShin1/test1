@@ -9,4 +9,6 @@ https://developer.chrome.com/docs/devtools/
 
 https://wiki.archlinux.org/title/File_permissions_and_attributes
 
+## Bash Cheatsheet
 
+https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
