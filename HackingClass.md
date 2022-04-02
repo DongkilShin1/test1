@@ -41,7 +41,11 @@ web application attacks, such as cross-site scripting, SQL injection
 
 https://whisperlab.org/introduction-to-hacking/lectures/collision   collision
 
-Practive with VM, web application attacks, such as cross-site scripting, SQL injection :  https://dvwa.co.uk/
+Practive with web application attacks, such as cross-site scripting, SQL injection on Kali
+
+https://dvwa.co.uk/
+
+https://www.youtube.com/watch?v=yWwlO0wuNac
 
 
 # WEEK4 - Hacking Networks (Exploitation, Metasploit, Bofs)
