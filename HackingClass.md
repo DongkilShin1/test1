@@ -33,6 +33,8 @@ https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
 
 https://excess-xss.com/        cross site script 
 
+web application attacks, such as cross-site scripting, SQL injection
+
 # WEEK3 - Hacking the Web
 
 https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
