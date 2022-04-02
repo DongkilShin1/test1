@@ -25,13 +25,13 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET
 
 # WEEK2 - Cyber Ethics and Vulnerability Scoring
 
-https://whisperlab.org/introduction-to-hacking/lectures/hacking-ethics
+https://whisperlab.org/introduction-to-hacking/lectures/hacking-ethics     hacking ethics
 
-https://www.imperva.com/learn/application-security/penetration-testing/?redirect=Incapsula
+https://www.imperva.com/learn/application-security/penetration-testing/?redirect=Incapsula            pen testing
 
 https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
 
-https://excess-xss.com/
+https://excess-xss.com/        cross script 
 
 # WEEK3 - Hacking the Web
 
