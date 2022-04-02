@@ -31,13 +31,15 @@ https://www.imperva.com/learn/application-security/penetration-testing/?redirect
 
 https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
 
+# WEEK3 - Hacking the Web
+
+https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation   XSS
+
 https://excess-xss.com/        cross site script 
 
 web application attacks, such as cross-site scripting, SQL injection
 
-# WEEK3 - Hacking the Web
-
-https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation
+https://whisperlab.org/introduction-to-hacking/lectures/collision   collision
 
 
 # WEEK4 - Hacking Networks (Exploitation, Metasploit, Bofs)
