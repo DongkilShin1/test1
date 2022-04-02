@@ -41,6 +41,8 @@ web application attacks, such as cross-site scripting, SQL injection
 
 https://whisperlab.org/introduction-to-hacking/lectures/collision   collision
 
+Practive with VM  :  https://dvwa.co.uk/
+
 
 # WEEK4 - Hacking Networks (Exploitation, Metasploit, Bofs)
 
