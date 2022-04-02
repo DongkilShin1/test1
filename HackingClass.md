@@ -31,7 +31,7 @@ https://www.imperva.com/learn/application-security/penetration-testing/?redirect
 
 https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
 
-https://excess-xss.com/        cross script 
+https://excess-xss.com/        cross site script 
 
 # WEEK3 - Hacking the Web
 
