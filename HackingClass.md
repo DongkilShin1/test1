@@ -52,6 +52,10 @@ https://www.youtube.com/watch?v=yWwlO0wuNac
 
 # WEEK4 - Hacking Networks (Exploitation, Metasploit, Bofs)
 
+https://whisperlab.org/introduction-to-hacking/lectures/network-exploitation
+
+https://whisperlab.org/introduction-to-hacking/lectures/bof
+
 
 # WEEK5 - Hacking Systems
 
