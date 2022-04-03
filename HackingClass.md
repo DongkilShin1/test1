@@ -59,15 +59,22 @@ https://whisperlab.org/introduction-to-hacking/lectures/bof
 
 # WEEK5 - Hacking Systems
 
+https://whisperlab.org/introduction-to-hacking/lectures/password-hashing
 
+https://whisperlab.org/introduction-to-hacking/lectures/passcode
 
 # WEEK6 - Hacking Software (Buffer Overflow)
 
+https://whisperlab.org/introduction-to-hacking/lectures/buffer-overflows
 
 # WEEK7 - Hacking Wifi
 
+https://whisperlab.org/introduction-to-hacking/lectures/wifi-exploitation
 
 # Assignment1
+
+https://whisperlab.org/introduction-to-hacking/assignments/assignment1
+
 
 
 # Assignment2
