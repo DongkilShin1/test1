@@ -11,6 +11,8 @@ https://developer.chrome.com/docs/devtools/
 
 https://wiki.archlinux.org/title/File_permissions_and_attributes
 
+https://nolboo.kim/blog/2015/08/18/linux-users-groups/
+
 ### Bash Cheatsheet
 
 https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
