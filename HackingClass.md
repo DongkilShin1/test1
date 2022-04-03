@@ -47,7 +47,7 @@ https://whisperlab.org/introduction-to-hacking/lectures/collision   collision
 
 https://www.openvim.com/
 
-Practive with web application attacks, such as cross-site scripting, SQL injection on Kali
+Practice on web application attacks, such as cross-site scripting, SQL injection on Kali
 
 https://dvwa.co.uk/
 
