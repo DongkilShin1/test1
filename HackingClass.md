@@ -37,6 +37,8 @@ https://whisperlab.org/introduction-to-hacking/lectures/web-exploitation   XSS
 
 https://excess-xss.com/        cross site script 
 
+https://www.youtube.com/watch?v=jvS45jdz1ao&t=2s
+
 web application attacks, such as cross-site scripting, SQL injection
 
 https://whisperlab.org/introduction-to-hacking/lectures/collision   collision
