@@ -58,6 +58,8 @@ https://www.youtube.com/watch?v=yWwlO0wuNac
 
 https://whisperlab.org/introduction-to-hacking/lectures/network-exploitation
 
+https://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
+
 https://whisperlab.org/introduction-to-hacking/lectures/bof
 
 
