@@ -75,16 +75,25 @@ https://whisperlab.org/introduction-to-hacking/lectures/wifi-exploitation
 
 https://whisperlab.org/introduction-to-hacking/assignments/assignment1
 
-
+https://github.com/DongkilShin1/dongkilshin1.github.io/blob/master/_posts/Hacking-Assignment1.pdf
 
 # Assignment2
 
+https://whisperlab.org/introduction-to-hacking/assignments/assignment2
+
+https://github.com/DongkilShin1/dongkilshin1.github.io/blob/master/_posts/Hacking-Assignment2.pdf
 
 # Assignment3
 
+https://whisperlab.org/introduction-to-hacking/assignments/assignment3
+
+https://github.com/DongkilShin1/dongkilshin1.github.io/blob/master/_posts/Hacking-Assignment3.pdf
 
 # Assignment4
 
+https://whisperlab.org/introduction-to-hacking/assignments/assignment4
+
+https://github.com/DongkilShin1/dongkilshin1.github.io/blob/master/_posts/Hacking-Assignment4.pdf
 
 # Presentation
 ## SQL injection
