@@ -13,9 +13,9 @@ CNCF의 목적은 클라우드 네이티브 컴퓨팅을 유비쿼터스로 만�
 클라우드 네이티브 컴퓨팅은 요악하면 크게 4가지 요소를 들 수 있습니다.
 
 - MSA (MicroService Architecture)
-- DevOps
-- CI/CD
 - Container
+- CI/CD
+- DevOps
 
 구글은 첫 프로젝트로 쿠버네티스를 기부했습니다. CNCF는 오픈소스 프로젝트 성숙도를 샌드박스(Sandbox), 인큐베이팅(Incubating), 졸업(Graduated)으로 나누고 있습니다.
 
