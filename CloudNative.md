@@ -42,3 +42,43 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 https://jwher.github.io/cncf
 
 https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
+
+
+
+
+
+
+
+
+
+# Cloud
+
+![image](https://user-images.githubusercontent.com/94558947/162238929-baac9604-d40b-4f23-bb6a-d7b1a0f9b642.png)
+
+- **클라우드 컴퓨팅**은 (서로 다른 물리적인 위치에 존재하는) 컴퓨터들의 리소스를 **가상화 기술로 통합**해 제공하는 기술을 말합니다.
+
+예를들면, 개인용 컴퓨터나 기업의 서버에 개별적으로 저장해 두었던 프로그램이나 문서를 클라우드에 저장하고 웹 브라우저 등 필요한 어플리케이션을 구동해 원하는 작업을 수행할 수 있는 사용자 중심의 컴퓨터 환경을 말합니다.
+
+예시: Google DOCs(Google), 네이버 오피스 etc
+
+- 가상화와 클라우드 컴퓨팅의 차이
+가상화는 기술이고 클라우드는 방법론 입니다.
+
+. 가상화
+가상화는 우리가 쓰던 VMware나 Virtualbox와 같이 단일한 물리 하드웨어 시스템에서 여러 환경이나 자원을 생성할 수 있는 기술입니다.
+하이퍼바이저 라고 불리는 소프트웨어가 하드웨어에 직접 연결되며 가상 머신을 만들 수 있습니다.
+이러한 가상 머신은 하이퍼바이저의 자원을 적절하게 배분받은 후 사용합니다.
+
+. 클라우드 (컴퓨팅)
+클라우드 컴퓨팅은 가상화를 통해 분리,분할된 자원(컴퓨팅, 네트워크, 스토리지 인프라 자원, 서비스, 플랫폼, 애플리케이션)을 사용자에게 제공하는 접근 방식입니다.
+
+즉, 가상화는 하드웨어의 기능을 공유(분리, 분할)하는 기술이고 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
+
+https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
+
+
+### VMware, Nutanix, Openstack 비교
+
+https://disciplechoi.github.io/cloud/2021/06/10/comparision-cloud-vendor.html
+
+https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
