@@ -83,6 +83,8 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
 
+노란색의 You manage는 사용자가 관리해야 할 부분이고, 흰색의 Managed by vendor는 기업(Providers or MSPs)에서 관리해주는 부분입니다
+
 
 ## VMware, Nutanix, Openstack 비교
 
