@@ -62,6 +62,8 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 ![image](https://user-images.githubusercontent.com/94558947/162244638-3f928282-49fa-4c98-a56a-1e0fb023a436.png)
 
+노란색의 You manage는 사용자가 관리해야 할 부분이고, 흰색의 Managed by vendor는 기업(Providers or MSPs)에서 관리해주는 부분입니다
+
 - **클라우드 컴퓨팅**은 (서로 다른 물리적인 위치에 존재하는) 컴퓨터들의 리소스를 **가상화 기술로 통합**해 제공하는 기술을 말합니다.
 
 예를들면, 개인용 컴퓨터나 기업의 서버에 개별적으로 저장해 두었던 프로그램이나 문서를 클라우드에 저장하고 웹 브라우저 등 필요한 어플리케이션을 구동해 원하는 작업을 수행할 수 있는 사용자 중심의 컴퓨터 환경을 말합니다.
@@ -83,7 +85,7 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
 
-노란색의 You manage는 사용자가 관리해야 할 부분이고, 흰색의 Managed by vendor는 기업(Providers or MSPs)에서 관리해주는 부분입니다
+
 
 
 ## VMware, Nutanix, Openstack 비교
