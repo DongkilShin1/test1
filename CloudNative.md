@@ -12,7 +12,7 @@ CNCF의 목적은 클라우드 네이티브 컴퓨팅을 유비쿼터스로 만�
 
 클라우드 네이티브 컴퓨팅은 요악하면 크게 4가지 요소를 들 수 있습니다.
 
-MicroService Architecture (MSA)
-DevOps
-CI/CD
-Container
+- MicroService Architecture (MSA)
+- DevOps
+- CI/CD
+- Container
