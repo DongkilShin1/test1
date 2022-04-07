@@ -1,6 +1,6 @@
 
 
-# 클라우드 네이티브 (CNCF - Cloud Native Computing Foundation)
+# Cloud Native Computing (CNCF - Cloud Native Computing Foundation)
 
 클라우드 네이티브 애플리케이션은 프라이빗, 퍼블릭 및 하이브리드 클라우드 환경에서 지속적인 개발과 자동화된 관리 환경을 제공하기 위해 설계된 앱을 말합니다.
 이러한 설계는 피드백을 반영하고 지속적, 탄력적으로 결합된 소규모의 독립적인 서비스 컬렉션을 가능하게 합니다.
@@ -51,7 +51,7 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 
 
-# Cloud
+## Cloud
 
 ![image](https://user-images.githubusercontent.com/94558947/162238929-baac9604-d40b-4f23-bb6a-d7b1a0f9b642.png)
 
@@ -77,7 +77,7 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
 
 
-### VMware, Nutanix, Openstack 비교
+## VMware, Nutanix, Openstack 비교
 
 https://disciplechoi.github.io/cloud/2021/06/10/comparision-cloud-vendor.html
 
