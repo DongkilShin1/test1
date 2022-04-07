@@ -33,7 +33,7 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 
  - 독립적인 구동 단위의 패키징
      : Monolithic한 통합시스템의 가상화에서 분산된 여러 개로 분산된 시스템의 컨테이너 구조로 변화
-    - 서비스 모델 기반 관리
+ - 서비스 모델 기반 관리
      : 시스템을 개별 단위로 관리하는 방식에서 동일한 기능을 제공하는 복수의 컨테이너 관리로 변화
 
 ![image](https://user-images.githubusercontent.com/94558947/162226482-bdd6fbcc-ebf8-4fc8-bb8a-06b7680ac2d1.png)
