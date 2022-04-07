@@ -29,6 +29,16 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 
 ## Cloud Native 기술 배경
 
+기존 VM과 비교했을 때, 컨테이너 기술은 Hypervisor 엔진과 Guest OS를 제거하여 자원효율화를 제공합니다. 기존 가상머신에서 컨테이너로 기술이 전환이 이뤄지면서 생겨난 변화는 다음과 같습니다. 이러한 변화는 Cloud Native Architecture의 주요한 특징으로 등장하게 됩니다.
+
+ - 독립적인 구동 단위의 패키징
+     : Monolithic한 통합시스템의 가상화에서 분산된 여러 개로 분산된 시스템의 컨테이너 구조로 변화
+    - 서비스 모델 기반 관리
+     : 시스템을 개별 단위로 관리하는 방식에서 동일한 기능을 제공하는 복수의 컨테이너 관리로 변화
+
+![image](https://user-images.githubusercontent.com/94558947/162226482-bdd6fbcc-ebf8-4fc8-bb8a-06b7680ac2d1.png)
+
+
 https://jwher.github.io/cncf
 
 https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
