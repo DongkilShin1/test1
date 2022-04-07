@@ -83,6 +83,24 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 즉, 가상화는 하드웨어의 기능을 공유(분리, 분할)하는 기술이고 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
 
+### IaaS
+
+Infrastructure 레벨을 제공하는 서비스를 의미합니다. 위에 보이는 것과 같이 사용자는 OS를 직접 올리고 그 상위 계층만 구성하면 되는 모델입니다.
+
+예시: AWS의 EC2
+
+### PaaS
+
+개발자가 응용 프로그램을 작성할 수 있도록 플랫폼 및 환경을 제공하는 모델입니다.
+
+예시: PaaS의 제공 업체로는 Heroku, Google App Engine, etc.
+
+### SaaS
+
+설치할 필요도 없이 클라우드를 통해 제공되는 SW입니다.
+
+예시: Google Docs, MS오피스365, 드롭박스, etc
+
 https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
 
 
