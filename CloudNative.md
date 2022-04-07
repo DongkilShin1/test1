@@ -99,7 +99,7 @@ Infrastructure 레벨을 제공하는 서비스를 의미합니다. 위에 보�
 
 설치할 필요도 없이 클라우드를 통해 제공되는 SW입니다.
 
-예시: Google Docs, MS오피스365, 드롭박스, etc
+예시: Gmail, Google Docs, MS오피스365, 드롭박스, etc
 
 https://wnsgml972.github.io/network/2018/08/14/network_cloud-computing/
 
