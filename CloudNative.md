@@ -39,7 +39,7 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 ![image](https://user-images.githubusercontent.com/94558947/162226482-bdd6fbcc-ebf8-4fc8-bb8a-06b7680ac2d1.png)
 
 CNCF에서 정의하는 Cloud Native system은 다음과 같은 특성을 갖습니다.
-1(a) Container 단위로 관리: 구동되는 애플리케이션은 독립적인 배포 단위인 동시에 독립적인 자원관리 단위임. 또한 Cloud Native application은 코드와 컴포넌트 재사용 가능
+1.(a) Container 단위로 관리: 구동되는 애플리케이션은 독립적인 배포 단위인 동시에 독립적인 자원관리 단위임. 또한 Cloud Native application은 코드와 컴포넌트 재사용 가능
 2(b) 동적 관리: 중앙관리 방식의 스케줄과 관리로 서버 자원의 효율성을 높이고 자원관리와 운영비용을 절감시킴.
 3(c) Microservices 중심 관리: 의존관계가 명확하고, 결합이 느슨한 모듈은 애플리케이션 전반에 민첩성과 관리 용이성을 제공함.
 
