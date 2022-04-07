@@ -1,4 +1,4 @@
-https://jwher.github.io/cncf
+
 
 클라우드 네이티브 (CNCF - Cloud Native Computing Foundation)
 
@@ -12,7 +12,20 @@ CNCF의 목적은 클라우드 네이티브 컴퓨팅을 유비쿼터스로 만�
 
 클라우드 네이티브 컴퓨팅은 요악하면 크게 4가지 요소를 들 수 있습니다.
 
-- MicroService Architecture (MSA)
+- MSA (MicroService Architecture)
 - DevOps
 - CI/CD
 - Container
+
+구글은 첫 프로젝트로 쿠버네티스를 기부했습니다. CNCF는 오픈소스 프로젝트 성숙도를 샌드박스(Sandbox), 인큐베이팅(Incubating), 졸업(Graduated)으로 나누고 있습니다.
+
+Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁니다. 이 용어들은 서로 밀접한 관련이 있는 듯 보이지만 정작 어떤 관계인지를 설명하기란 쉽지 않습니다.
+
+용어들 간의 관련성을 간단히 정리하자면,
+① 애플리케이션의 구조를 한 가지 업무에 특화된 독립적인 단위로 개발 (Microservices) 하고,
+② ①을 경량화된 가상화 환경에서 구동을 할 수 있는 단위 (Container)로 생성하고,
+③ ②와 같은 여러 개의 컨테이너들을 관리를 할 수 있는 환경 (Cloud Native).
+
+https://jwher.github.io/cncf
+
+https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
