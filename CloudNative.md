@@ -1,6 +1,6 @@
 
 
-클라우드 네이티브 (CNCF - Cloud Native Computing Foundation)
+# 클라우드 네이티브 (CNCF - Cloud Native Computing Foundation)
 
 클라우드 네이티브 애플리케이션은 프라이빗, 퍼블릭 및 하이브리드 클라우드 환경에서 지속적인 개발과 자동화된 관리 환경을 제공하기 위해 설계된 앱을 말합니다.
 이러한 설계는 피드백을 반영하고 지속적, 탄력적으로 결합된 소규모의 독립적인 서비스 컬렉션을 가능하게 합니다.
@@ -27,6 +27,7 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 - ③ 여러 개의 Container(②)들을 관리를 할 수 있는 환경 (Cloud Native)이 Cloud Native Computing 이다.
 ```
 
+## Cloud Native 기술 배경
 
 https://jwher.github.io/cncf
 
