@@ -23,8 +23,8 @@ Cloud Native, Microservices, Container 등에 대해서 많이 들어봤을 겁�
 
 용어들 간의 관련성을 간단히 정리하자면,
 - ① 애플리케이션의 구조를 한 가지 업무에 특화된 독립적인 단위로 개발 (Microservices) 하고,
-- ② ①을 경량화된 가상화 환경에서 구동을 할 수 있는 단위 (Container)로 생성하고,
-- ③ ②와 같은 여러 개의 컨테이너들을 관리를 할 수 있는 환경 (Cloud Native).
+- ② MSA(①)을 경량화된 가상화 환경에서 구동을 할 수 있는 단위 (Container)로 생성하고,
+- ③ Container(②)를 여러 개의 컨테이너들을 관리를 할 수 있는 환경 (Cloud Native)이 Cloud Native Computing 이다.
 
 https://jwher.github.io/cncf
 
