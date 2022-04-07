@@ -53,7 +53,7 @@ https://www.samsungsds.com/kr/insights/101917_RD_Cloudnative.html
 
 ## Cloud
 
-![image](https://user-images.githubusercontent.com/94558947/162238929-baac9604-d40b-4f23-bb6a-d7b1a0f9b642.png)
+![image](https://user-images.githubusercontent.com/94558947/162244638-3f928282-49fa-4c98-a56a-1e0fb023a436.png)
 
 - **클라우드 컴퓨팅**은 (서로 다른 물리적인 위치에 존재하는) 컴퓨터들의 리소스를 **가상화 기술로 통합**해 제공하는 기술을 말합니다.
 
