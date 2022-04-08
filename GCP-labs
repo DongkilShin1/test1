@@ -8,6 +8,10 @@ Topics tested
 - Deploy and test a Kubernetes Canary deployment for a sample application.
 - Push the Canary application branch to master and confirm this triggers a production pipeline update.
 
+https://github.com/DongkilShin1/dongkilshin1.github.io/blob/master/_posts/GSP-318
+
+=======================================================
+
 https://www.courseintern.com/post/qwiklabs/challenge-labs/gsp318-deploy-to-kubernetes-in-google-cloud/
 
 Topics tested:
