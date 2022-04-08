@@ -2,5 +2,11 @@
 
 https://www.courseintern.com/post/qwiklabs/challenge-labs/gsp330-implement-devops-in-google-cloud/
 
+Topics tested
+- Use Jenkins console logs to resolve application deployment issues.
+- Deploy and a development update to a sample application for Jenkins to deploy using a development pipeline.
+- Deploy and test a Kubernetes Canary deployment for a sample application.
+- Push the Canary application branch to master and confirm this triggers a production pipeline update.
+
 https://www.courseintern.com/post/qwiklabs/challenge-labs/gsp318-deploy-to-kubernetes-in-google-cloud/
 
