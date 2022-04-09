@@ -25,6 +25,8 @@ https://en.wikipedia.org/wiki/OSI_model
 
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET
 
+http://www.robelle.com/smugbook/regexpr.html - regular expression
+
 # WEEK2 - Cyber Ethics and Vulnerability Scoring
 
 https://whisperlab.org/introduction-to-hacking/lectures/hacking-ethics     hacking ethics
