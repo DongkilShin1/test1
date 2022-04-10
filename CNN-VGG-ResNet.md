@@ -26,3 +26,5 @@ http://taewan.kim/post/cnn/  --- Good
 https://davinci-ai.tistory.com/29
 
 https://www.kaggle.com/code/tanyildizderya/convolutional-neural-network-cnn-tutorial/notebook
+
+https://www.kaggle.com/code/agungor2/various-confusion-matrix-plots/notebook
