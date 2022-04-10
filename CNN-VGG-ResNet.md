@@ -21,4 +21,8 @@ https://sumniya.tistory.com/26
 
 https://eehoeskrap.tistory.com/430
 
+http://taewan.kim/post/cnn/  --- Good
+
+https://davinci-ai.tistory.com/29
+
 
