@@ -28,3 +28,11 @@ https://davinci-ai.tistory.com/29
 https://www.kaggle.com/code/tanyildizderya/convolutional-neural-network-cnn-tutorial/notebook
 
 https://www.kaggle.com/code/agungor2/various-confusion-matrix-plots/notebook
+
+https://datascienceschool.net/03%20machine%20learning/09.04%20%EB%B6%84%EB%A5%98%20%EC%84%B1%EB%8A%A5%ED%8F%89%EA%B0%80.html - good
+
+https://www.kaggle.com/code/maximedassen/deep-learning-x-ray-md/notebook - good 
+
+https://towardsdatascience.com/deep-learning-for-detecting-pneumonia-from-x-ray-images-fc9a3d9fdba8 - good
+
+https://medium.com/@scueval07/covid-resnet-covid-19-detection-in-chest-x-ray-a11a4f72c490 - original
