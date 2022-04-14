@@ -35,4 +35,6 @@ https://www.kaggle.com/code/maximedassen/deep-learning-x-ray-md/notebook - good
 
 https://towardsdatascience.com/deep-learning-for-detecting-pneumonia-from-x-ray-images-fc9a3d9fdba8 - good
 
-https://medium.com/@scueval07/covid-resnet-covid-19-detection-in-chest-x-ray-a11a4f72c490 - original
+https://medium.com/@scueval07/covid-resnet-covid-19-detection-in-chest-x-ray-a11a4f72c490 - resnet original
+
+https://www.kaggle.com/code/shub20/lung-image-classification-97-acc
