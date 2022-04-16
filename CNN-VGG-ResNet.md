@@ -38,3 +38,13 @@ https://towardsdatascience.com/deep-learning-for-detecting-pneumonia-from-x-ray-
 https://medium.com/@scueval07/covid-resnet-covid-19-detection-in-chest-x-ray-a11a4f72c490 - resnet original
 
 https://www.kaggle.com/code/shub20/lung-image-classification-97-acc
+
+https://m.blog.naver.com/laonple/220594258301
+
+https://sacko.tistory.com/44
+
+https://eehoeskrap.tistory.com/430
+
+https://m.blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=baek2sm&logNo=222176799509&categoryNo=99&proxyReferer=
+
+https://hongong.hanbit.co.kr/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-%EB%B9%84%EA%B5%90-%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-%EC%BC%80%EB%9D%BC%EC%8A%A4-%ED%8C%8C%EC%9D%B4%ED%86%A0%EC%B9%98/ - Keras, Tensorflow, Pytorch
