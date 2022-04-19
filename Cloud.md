@@ -29,10 +29,12 @@ Virtual Machine = VM instance = instance = AWS EC2 (Elastic Compute Cloud)
 
 ## AWS
 
+https://daaa0555.tistory.com/202?category=994791
 
 ## Azure
 
 
 ## GCP
 
+https://daaa0555.tistory.com/234?category=994791
 
