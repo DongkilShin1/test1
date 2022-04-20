@@ -34,3 +34,4 @@ port정보 등을 모-두 가지고 있다.
 Layer를 묶어서 하나의 파일시스템으로 사용할 수 있게 해준다. 그래서 이미지와 레이어는 같은 의미로도 사용된다. 추가적으
 로 DockerHub 및 개인 저장소에서 이미지를 공유할 때는 바뀐 부분(Layer = image)만 주고받기 가능하다.
 
+![image](https://user-images.githubusercontent.com/94558947/164291090-0b461ac8-a513-4752-a86f-9851d30c9295.png)
