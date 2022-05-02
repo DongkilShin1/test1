@@ -1,0 +1,1 @@
+(ex. 3 tier 웹 어플리케이션의 정의와 구성방식? 컨테이너? distributed and scalable systems 구성 시 고려할 요소? CI/CD? micro services design 의 장단점? Load Balancer란? TCP와 UDP의 차이는? RDBMS와 NoSQL의 차이는? 웹방화벽이 일반 방화벽과 어떻게 다른지? RAID는? Hadoop등등)
