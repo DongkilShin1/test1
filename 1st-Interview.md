@@ -11,7 +11,12 @@ TCP와 UDP의 차이는?
 RDBMS와 NoSQL의 차이는?
 웹방화벽이 일반 방화벽과 어떻게 다른지?
 RAID는?
-- Hadoop?
+- Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
+- HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
+- MapReduce
+. Map: 흩어져 있는 데이터를 key, value 형태로 연관성 있는 데이터 분류로 묶는 작업
+. Reduce: filtering과 sorting을 거쳐 데이터를 추출; Map화한 작업 중 중복 데이터를 제거하고 원하는 데이터를 추출하는 작업
+
 - https://www.youtube.com/watch?v=3s_xafgRMIM
 - https://www.edureka.co/blog/mapreduce-tutorial/
 
