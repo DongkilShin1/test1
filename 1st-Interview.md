@@ -12,10 +12,9 @@ https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%8
 
 #### = 1픽셀은 몇 byte?
 https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
-
-
-
-
+= 1픽셀은 몇 byte?
+- 컬러 이미지: RGB - 각 색깔의 정보는 0~255사이의 값; 각 색깔별로 8bit의 용량이 필요; 3 x 8bit = 24bit, 즉 __3byte__ 필요
+- 흑백 이미지: 흑백이미지의 픽셀은 0~255 사이 값. 이 값은 8bit, 즉 __1byte__ 필요.
 
 #### = 리눅스 부팅과정
 - https://yonlog.tistory.com/m/59
