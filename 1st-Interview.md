@@ -1,6 +1,7 @@
 # Interview
 
 #### = 3 tier 웹 어플리케이션의 정의와 구성방식?
+https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98
 ##### - 정의
 - FrondEnd: 
 - BackEnd: 
