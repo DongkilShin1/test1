@@ -9,6 +9,14 @@ https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%8
 ##### - 구성방식
 - 
 
+
+#### = 1픽셀은 몇 byte?
+https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
+
+
+
+
+
 #### = 리눅스 부팅과정
 - https://yonlog.tistory.com/m/59
 - Step 1 : Hardware - Power On, BIOS, MBR (ROM)
