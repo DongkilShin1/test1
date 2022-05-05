@@ -71,6 +71,10 @@ Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제
 #### - 컨테이너?
 - 애플리케이션을 구동하는 환경을 격리한 공간. 예) Docker (Container Runtime)
 - Hypervisor vs Container
+  - Hypervisor: Server - OS/Hypervisor - GuestOS- Bin/lib - App
+  - Container: Server - OS - Container Engine - Bin/lib - App
+
+![21](https://user-images.githubusercontent.com/94558947/167036130-980026f6-6254-49a5-9eaa-4abb78818a70.PNG)
 
 #### - CI/CD?
 
