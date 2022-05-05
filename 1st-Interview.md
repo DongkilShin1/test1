@@ -69,15 +69,30 @@ replication은 복제하는 것이다. distribution과 달리 replication만의 
 Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제로 쉬운건 아니지만 머신의 성능(capacity)을 높여주면 되기 때문에 상대적으로 쉽다고 볼 수 있다. distribution, replication, and caching을 결합한 형태는 실제로 많이 사용되는 테크닉이다. Administrative scalability는 기술적인 측면이 아니라서 세 가지 중에서 가장 해결하기 어려운 것이다.
 
 #### - 컨테이너?
+- 애플리케이션을 구동하는 환경을 격리한 공간. 예) Docker (Container Runtime)
+- Hypervisor vs Container
 
-- CI/CD?
-- Micro services design 의 장단점?
-- Load Balancer란?
-- TCP와 UDP의 차이는?
-- RDBMS와 NoSQL의 차이는?
-- 웹방화벽이 일반 방화벽과 어떻게 다른지?
-- RAID는?
-- Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
+#### - CI/CD?
+
+
+#### - Micro services design 의 장단점?
+
+
+#### - Load Balancer란?
+
+
+#### - TCP와 UDP의 차이는?
+
+
+#### - RDBMS와 NoSQL의 차이는?
+
+
+#### - 웹방화벽이 일반 방화벽과 어떻게 다른지?
+
+
+#### - RAID는?
+
+#### - Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
   - HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
   - MapReduce
     - Map: 흩어져 있는 데이터를 key, value 형태로 연관성 있는 데이터 분류로 묶는 작업
