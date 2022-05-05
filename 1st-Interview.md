@@ -2,13 +2,12 @@
 
 #### = 3 tier 웹 어플리케이션의 정의와 구성방식?
 https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98
-##### - 정의
-- FrondEnd: 
-- BackEnd: 
-- DB: 
-##### - 구성방식
-- 
-
+https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
+##### - 정의, 구성 방식
+- Presentation Layer (FrondEnd) - Web server: HTML, CSS, Javascript - Client service - Apache, Nginx, IIS
+- Application Layer (MiddleWare or BackEnd) - WAS server: DB관련 처리 또는 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
+- Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostreSql
+- Web -> WAS -> DB or Web/WAS -> DB
 
 #### = 1픽셀은 몇 byte?
 https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
