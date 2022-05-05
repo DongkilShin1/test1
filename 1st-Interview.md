@@ -21,9 +21,19 @@ https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9
 - Step 3 : Kernel - Kernel (Disk)
 - Step 4 : Init - Init Level, Login
 
+#### = Distributed and scalable systems 구성 시 고려할 요소
+##### - Distributed Systems 
+- 분산 시스템은 단일 컴퓨터를 형성하기 위해 함께 작동하는 자율적인 컴퓨터들의 집합이고,
+모든 분산 컴퓨터는 상호 의존적이며, 공유 네트워크에 연결되어 정보를 공유하고 소통한다.
+
+##### - Distributed Systems 구성 시 고려사항
+- Failure Handling(장애처리): 일부 구성요소 fail시에도 다른 요소들은 계속 작동한다. 이는 대규모 장애를 방지하지만, 문제 해결/디버깅시 복잡성이 더 커진다.
+- Concurrency(동시성) : Client가 공유 자원에 동시 접근시 이슈가 발생할 수 있다. 모든 리소스가 동시 환경에서 안전 할 수 있도록 보장해야 한다.
+- Security issues : 데이터 보안과 공유는 분산 컴퓨터 환경의 위험을 증가시킨다. 여러 위치에서 복제된 데이터에 안전하게 접근할 수 있어야 한다.
+- Higher initial infrastructure costs : 분산 처리 환경의 deployment 초기 비용은 단일 시스템에 비해 높다. 기본적인 네트워크 설정 문제가 포함돼있다.
 
 #### - 컨테이너?
-- Distributed and scalable systems 구성 시 고려할 요소?
+
 - CI/CD?
 - Micro services design 의 장단점?
 - Load Balancer란?
