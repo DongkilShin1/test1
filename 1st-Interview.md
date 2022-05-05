@@ -6,7 +6,7 @@ https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
 ##### - 정의, 구성 방식
 - Presentation Layer (FrondEnd) - Web server: HTML, CSS, Javascript - Client service - Apache, Nginx, IIS
 - Application Layer (MiddleWare or BackEnd) - WAS server: DB관련 처리 또는 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
-- Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostreSql
+- Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostgreSql
 - Web -> WAS -> DB or Web/WAS -> DB
 
 #### = 1픽셀은 몇 byte?
