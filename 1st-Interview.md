@@ -1,10 +1,19 @@
 # Interview
 
-#### - 3 tier 웹 어플리케이션의 정의와 구성방식?
+#### = 3 tier 웹 어플리케이션의 정의와 구성방식?
+##### - 정의
 - FrondEnd: 
 - BackEnd: 
 - DB: 
+##### - 구성방식
+- 
 
+#### = 리눅스 부팅과정
+- https://yonlog.tistory.com/m/59
+- Step 1 : Hardware - Power On, BIOS, MBR (ROM)
+- Step 2 : BootLoader - GRUB (RAM)
+- Step 3 : Kernel - Kernel (Disk)
+- Step 4 : Init - Init Level, Login
 
 
 #### - 컨테이너?
