@@ -68,7 +68,7 @@ replication은 복제하는 것이다. distribution과 달리 replication만의 
 4. __정리__
 Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제로 쉬운건 아니지만 머신의 성능(capacity)을 높여주면 되기 때문에 상대적으로 쉽다고 볼 수 있다. distribution, replication, and caching을 결합한 형태는 실제로 많이 사용되는 테크닉이다. Administrative scalability는 기술적인 측면이 아니라서 세 가지 중에서 가장 해결하기 어려운 것이다.
 
-#### - 컨테이너?
+#### - 컨테이너? (Container)
 - 컨테이너는 __커널를 공유하는 방법__ 으로 호스트 OS 하나에서 여러 OS를 가상화
 - 애플리케이션을 구동하는 환경을 격리한 공간. 예) Docker (Container Runtime)
 - Hypervisor vs Container
