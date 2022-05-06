@@ -127,18 +127,44 @@ Monolithic 아키텍처: challenges
 - 어플리케이션이 커질수록 개발자는 작은 단위로 작업을 축소할 수 있어야 합니다. Monolithic은 모든 것이 하나로 묶여 있기 때문에 개발자가 독립적으로 모듈을 개발하고 배포 할 수 없습니다. 그리고 개발은 협업으로 진행되므로 다른 개발자에 의존성때문에 개발 시간이 길어지게 됩니다.
 
 #### - Load Balancer란?
+![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
 
+- 부하 분산, 기본 RoundRobin 방식
+##### L4 로드밸런서
+- Layer 4 정보(TCP/UDP port)를 바탕으로 패킷을 분류하고 원하는 서버나 장비로 전송(포트 기반 필터링)
+##### L7 로드밸런서
+- 이메일의 제목이나 문자열 보고 파악 또는 HTTP의 URL 또는 FTP의 파일명, 쿠키 정보, 특정 바이러스의 패턴 등을 기준으로 트래픽을 분산하는 방법으로 보안에 더욱 유리하고 더욱 정교한 로드 밸런싱(콘텐츠 기반 제어)
 
 #### - TCP와 UDP의 차이는?
+##### TCP 
+- Connection-oriented protocol
+- 속도는 느리나 유실데이터 재전송하여 신뢰성
+- 메일 등 신뢰성 필요한 애플리케이션
 
+##### UDP
+- Connectionless protocol
+- 속도 빠르고 효율적이나 저품질
+- 음성전화, 동영상 등 빠른
+
+#### OSI 7
+- Application : 사용자가 어플리케이션을 이용해서 데이터를 입력하고 가공할 수 있다.
+- Presentation : 데이터 표현방법인 인코딩, 암호화, 압축 등을 할 수 있다.
+- Session : 연결을 관장함. 논리적인 통신회선의 생성, 유지, 종류, 관리를 담당.
+- Trnasport : 받을 대상을 명시해야함. 포트번호를 이용.
+- Network : 데이터가 어느 경로를 통해 이동해야 하는지에 대한 정보를 담고 있다. 경로 설정 및 IP(데이터 도착지) 지정
+- Data Link : MAC(매체 접근 제어) 주소를 이용해 .
+- Physical : 디지털 신호를 전기신호로 전송.
 
 #### - RDBMS와 NoSQL의 차이는?
-
+- 
 
 #### - 웹방화벽이 일반 방화벽과 어떻게 다른지?
 
 
 #### - RAID는?
+![image](https://user-images.githubusercontent.com/94558947/167210392-c09849b9-46e9-48b8-a78d-a3bf9901f3a9.png)
+
+
 
 #### - Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
   - HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
