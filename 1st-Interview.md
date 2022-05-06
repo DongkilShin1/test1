@@ -8,6 +8,7 @@ https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
 - Application Layer (MiddleWare or BackEnd) - WAS server: PHP, Python - DB관련 처리 or 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
 - Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostgreSql
 - Web -> WAS -> DB or Web/WAS -> DB
+- 미들웨어 기능: 트랜잭션 처리, 부하분산 기능
 
 #### = 1픽셀은 몇 byte?
 https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
@@ -77,7 +78,26 @@ Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제
 
 ![21](https://user-images.githubusercontent.com/94558947/167036130-980026f6-6254-49a5-9eaa-4abb78818a70.PNG)
 
-#### - CI/CD?
+#### - CI/CD? (Continuous Integration / Continuous Deployment, Delivery)
+https://helloworld-88.tistory.com/50
+
+The process begins after some changes are committed to a version control system (e.g. Git), the __CI/CD framework (e.g. Jenkins)__ would detect the changes and trigger the automated tests to begin. __If the changes pass the tests, the CI/CD framework would trigger__ the build automation tool (e.g. Docker); finally, the framework would trigger the deployment automation tool (e.g. Kubernetes) and send the new version to production.
+
+##### - CI (Continuous Integration)
+- 코드가 변경되어 GIT과 버전 관리 시스템에 업로드되면 commit된 소스코드를 주기적으로 검증 여부를 확인하고 통합하는 것.
+  - 대표적인 CI 시스템: Jenkins
+
+- 빌드 스크립트를 통한 CI 자동화 수행 절차
+1. 소스코드를 바이너리 파일로 컴파일한다.
+2. 바이너리 파일을 배포 형태로 패키징한다.
+3. 단위 테스트를 수행한다.
+4. 정적 분석을 수행한다.
+5. 분석 결과를 리포팅한다.
+6. 패키징한 파일을 테스트 서버에 배포한다.
+
+##### - CD (Continuous Deployment)
+
+
 
 
 #### - Micro services design 의 장단점?
