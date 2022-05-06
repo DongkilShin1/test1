@@ -162,6 +162,10 @@ Monolithic 아키텍처: challenges
 
 
 #### - RAID는?
+- RAID 0: Stripe
+- RAID 1: Mirroring
+- RAID 5: Parity
+ 
 ![image](https://user-images.githubusercontent.com/94558947/167210392-c09849b9-46e9-48b8-a78d-a3bf9901f3a9.png)
 
 
