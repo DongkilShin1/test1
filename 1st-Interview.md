@@ -95,12 +95,12 @@ The process begins after some changes are committed to a version control system 
 5. __분석 결과를 리포팅__ 한다.
 6. 패키징한 파일을 __테스트 서버에 배포__ 한다.
 
-- 지속적 통합으로 개발 프로세스 속도 높이고, 코드 품질 개선 효과
+- 지속적 통합으로 __개발 프로세스 속도 높이고, 코드 품질 개선 효과__ 코드 충돌 해결
 
 ##### - CD (Continuous Deployment)
+https://velog.io/@gkskaks1004/jenkins%EC%99%80-CICD%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C
 
-
-
+- CD(Contious Delivery) - 개발자들이 코드를 작성하면 레포지토리에 업로드하여 지속적으로 __배포 가능한 상태를 유지하는 것을 의미. 레포지토리에서 고객이 사용 가능한 서비스 환경까지 자동으로 릴리즈__ 할 수 있는 것이다.
 
 #### - Micro services design 의 장단점?
 
