@@ -165,10 +165,9 @@ Monolithic 아키텍처: challenges
 - RAID 0: Stripe
 - RAID 1: Mirroring
 - RAID 5: Parity
+- RAID 10: RAID 1과 RAID 0을 합친 개념. RAID 1로 각각의 디스크를 묶은 후에 다시 RAID 0으로 묶는다.
  
 ![image](https://user-images.githubusercontent.com/94558947/167210392-c09849b9-46e9-48b8-a78d-a3bf9901f3a9.png)
-
-
 
 #### - Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
   - HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
