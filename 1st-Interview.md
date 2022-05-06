@@ -95,6 +95,8 @@ The process begins after some changes are committed to a version control system 
 5. __분석 결과를 리포팅__ 한다.
 6. 패키징한 파일을 __테스트 서버에 배포__ 한다.
 
+- 지속적 통합으로 개발 프로세스 속도 높이고, 코드 품질 개선 효과
+
 ##### - CD (Continuous Deployment)
 
 
