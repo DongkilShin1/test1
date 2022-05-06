@@ -3,6 +3,7 @@
 #### = 3 tier 웹 어플리케이션의 정의와 구성방식?
 https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98
 https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
+
 ##### - 정의, 구성 방식
 - Presentation Layer (FrondEnd) - Web server: HTML, CSS, Javascript - Client service - Apache, Nginx, IIS
 - Application Layer (MiddleWare or BackEnd) - WAS server: PHP, Python - DB관련 처리 or 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
@@ -158,3 +159,4 @@ Monolithic 아키텍처: challenges
 
 
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
+https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
