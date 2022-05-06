@@ -161,6 +161,15 @@ Monolithic 아키텍처: challenges
 #### - 웹방화벽이 일반 방화벽과 어떻게 다른지?
 
 
+
+#### HTTP / HTTPS / SSL
+##### HTTP
+- 웹 페이지 문서를 웹 서버에 전송요청하는 프로토콜
+- HTTP는 암호화되지 않은 방법
+##### HTTPS
+- HTTP 프로토콜에 암호화 기능을 추가한 프로토콜
+- 데이터를 보낼 때 인증작업(암호화작업, 암호화 키 이용)을 거친다.
+
 #### - RAID는?
 - RAID 0: Stripe
 - RAID 1: Mirroring
