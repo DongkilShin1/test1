@@ -205,6 +205,14 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 - 웹방화벽(WAF)은 웹 애플리케이션에 대한 공격을 탐지/차단하는 보안 장비로서, HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
 - 일반 네트워크 방화벽은 약속된(Reserved) 포트의 차단/허용 방식 방어 (L3, L4)
 
+#### 웹서비스 DR(Disaster Recovery)
+- Auto Scale out by Kubernetes
+- LB
+
+#### DB DR
+- Replicas
+- Master, Slave
+ 
 #### HTTP / HTTPS / SSL
 - CRUD(Create, Read, Update, Delete) 동작 - Post, Get, Put, Delete
 - __GET__ 은 __주소줄__ 에 값이 ?뒤에 쌍으로 이어붙고 __POST__ 는 숨겨져서(__body안에__ ) 보내진다.
