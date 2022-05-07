@@ -218,7 +218,7 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 ##### HTTP2
 - Single TCP/IP connection (한 커넥션에 여러개의 메세지를 동시에 주고 받을 수 있음) -  성능 향상
 - Compressed binary header (Header 압축 전송) - much less space
-- Push capability (server push - HTML문서상에 필요한 리소스를 클라이언트 요청없이 보내줄 수 있음)
+- Push capability (server push - HTML문서상에 필요한 리소스(when new data available)를 클라이언트 요청없이 보내줄 수 있음)
 즉, __much less latency, more speed than HTTP1__
 
 ##### HTTPS
