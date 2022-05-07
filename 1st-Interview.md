@@ -224,8 +224,16 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 
 
 
-##### - CDN 서비스 설명:
-##### - Docker image 설명:
+##### - CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 가장 가까운 캐싱 서버에서 콘텐츠를 전송하는 서비스.
+- https://www.akamai.com/ko/our-thinking/cdn/what-is-a-cdn
+- https://goddaehee.tistory.com/173
+##### - Docker image 설명
+- https://www.lainyzine.com/ko/article/understanding-docker-hub-and-docker-official-images/
+- Docker Hub는 Docker 이미지 repository. Docker 이미지를 저장하는 원격 스토리지를 Image Registry라고 부르며, Docker Hub는 공식 Image Registry입니다
+- 누구나 만들 수 있기 때문에 만들어진 이미지를 편리하게 사용할 수도 있습니다만, 공식 이미지(Offcial Images), 인증된 퍼블리셔(Verified Publisher)의 이미지나 자신이 직접 만든 이미지만 사용하는 것을 강력히 권장합니다.
+- Docker File이란 Docker Image를 만들기 위한 설정 파일입니다. 여러가지 명령어를 토대로 Docker File을 작성하면 설정된 내용대로 Docker Image를 만들 수 있습니다.
+- https://khj93.tistory.com/entry/Docker-Docker-File-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4
+
 ##### - WAF설명: HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
 ##### - LB 설명: 부하 분산, 기본 RoundRobin 방식
 
