@@ -239,14 +239,11 @@ __SSL에서 사용하는 암호화의 종류__
 비공개키는 암호화에, 공개키는 복호화에 이용된다.
 공개키로 복호화 할 수 있다는 것은 그 데이터가 공개키와 쌍을 이루는 비공개키에 의해서 암호화 되었다는 것을 의미하므로 데이터 제공자의 신원을 보장한다.(전자서명) ex) RSA
 
-__SSL 동작원리__
+__SSL 동작원리__: 
 실제 __데이터는 대칭키(비공개키) 방식__으로 암호화하고, __복호화하기 위한 대칭키는 공개키 방식__으로 클라이언트와 서버가 주고 받는다.
 
-__CA(Certificate Authority)__
+__CA(Certificate Authority)__: 
 인증서의 역할은 클라이언트가 접속한 서버가 __클라이언트가 의도한 서버가 맞는지__ 를 보장하는 역할. 민간 기업도 가능
-
-
-
 
 ##### - CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 가장 가까운 캐싱 서버에서 콘텐츠를 전송하는 서비스.
 - CDN은 콘텐츠에 대한 요청이 발생하면 최적으로 배치된 CDN 서버에 엔드유저가 매핑되고, 해당 서버는 요청된 파일의 캐싱된(사전 저장된) 버전으로 응답합니다. 
@@ -254,6 +251,7 @@ __CA(Certificate Authority)__
 - 콘텐츠를 사용할 수 없거나 콘텐츠가 오래된 경우, CDN은 오리진 서버에 대한 요청 프록시로 작동하여 향후 요청에 대해 응답할 수 있도록 페칭된 콘텐츠를 저장합니다 (CDN이 오리진에 프록시로 작동하며 CDN이 오리진으로부터 전용네트워크로 다운받아 전송)
 - https://www.akamai.com/ko/our-thinking/cdn/what-is-a-cdn
 - https://goddaehee.tistory.com/173
+- 
 ##### - Docker image 설명
 - https://www.lainyzine.com/ko/article/understanding-docker-hub-and-docker-official-images/
 - Docker Hub는 Docker 이미지 repository. Docker 이미지를 저장하는 원격 스토리지를 Image Registry라고 부르며, Docker Hub는 공식 Image Registry입니다
