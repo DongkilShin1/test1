@@ -214,6 +214,13 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 ##### HTTP
 - 웹 페이지 문서를 웹 서버에 전송요청하는 프로토콜
 - HTTP는 암호화되지 않은 방법
+
+##### HTTP2
+- Single TCP/IP connection (한 커넥션에 여러개의 메세지를 동시에 주고 받을 수 있음) -  성능 향상
+- Compressed binary header (Header 압축 전송) - much less space
+- Push capability (server push - HTML문서상에 필요한 리소스를 클라이언트 요청없이 보내줄 수 있음)
+즉, __much less latency, more speed than HTTP1__
+
 ##### HTTPS
 - HTTP 프로토콜에 암호화 기능을 추가한 프로토콜
 - 데이터를 보낼 때 인증작업(암호화작업, 암호화 키 이용)을 거친다.
