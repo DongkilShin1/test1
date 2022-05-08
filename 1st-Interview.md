@@ -45,18 +45,19 @@
   2. 암호화 키의 분배, 관리 기능
 
 #### XML, JSON이 무엇이고 차이가 뭔지
-- XML: 
-- JSON: 
-- 
+- XML: HTML과 비슷한 문자기반마크업 언어, 종료 태그 있고, 구문길이가 길어서, 읽기/쓰기 속도 느림, 배열 사용 불가
+- JSON: 키-값 쌍으로 이루어진 데이터 포맷, 종료 태그 없고, 구문길이가 짧아서, 읽기/쓰기 속도 빠름, 배열 사용 가능 
 
 #### = 스토리지의 가용성을 높이는 기술
 - 미러링 (RAID 1)
 
 #### = FIFO, LIFO의 차이?
-
+- FIFO: 
+- LIFO:
 
 #### = ipv4
-
+- ipv4: 
+- ipv6:
 
 #### = 큐, 워커, 토큰인증
 - 큐: 
@@ -67,9 +68,11 @@
 - SQL Injection: 
 - XSS (Cross Site Script):
 
-#### = DataWare House, DataLake
-- DataWareHouse:
-- DataLake:
+#### = Data WareHouse, Data Lake, Data Mart
+- Data WareHouse: 다양한 원천을 join 등을 시용하여 하나의 통합된 형태로 정제한 것 (ETL)
+- Data Lake: 다양한 원천을 그대로 가져와 저장
+- Data Mart: 현업 담당자(소비자)가 필요한 데이터(상품)을 직접 골라담아 소비할 수 있는 공간(소매점 마트!)이라고 할 수 있다
+- ETL: 데이터를 운영 시스템에서 추출하여 가공(변환, 정제)한 후 데이터 웨어하우스에 적재하는 모든 과정
 
 #### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
