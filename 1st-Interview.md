@@ -376,7 +376,7 @@ __SSL 동작원리__:
 - 비대칭키 암호(Public, Private Key): 공개키 암호라고도 하며, 암,복호화에 서로 다른 키를 사용하는 알고리즘입니다.
 - 송신자는 수신자의 공개키를 이용하여 암호화하며, 수신자는 자신의 공개키로 암호화된 암호문을 자신의 개인키로 복호화할 수 있습니다
 
-- PKI (Public Key Infrastructure):
+- PKI (Public Key Infrastructure): 인증서, CA, RA, Repository 
 
 __CA(Certificate Authority)__: 
 인증서의 역할은 클라이언트가 접속한 서버가 __클라이언트가 의도한 서버가 맞는지__ 를 보장하는 역할. 민간 기업도 가능
