@@ -13,18 +13,30 @@
 #### 
 
 = tcp/ip
+
 = DHCP
+
 = DNS 원리
+
 = stateful과 stateless의 차이는 ?
 - stateful 은 클라이언트와 서버가 커넥션을 맺고, 클라이언트가 강제 종료를 해도 세션이 유지되지만, stateless는 세션이 종료가 됨.
+
 = forward proxy와 reverse proxy의 차이점?
+
 = Authentication과 Authorization의 차이점
+
 = 보안과 관련된 key 처리
+
 = XML, JSON이 무엇이고 차이가 뭔지
+
 = 스토리지의 가용성을 높이는 기술은?
+
 = fifo/lifo의 차이는?
+
 = ipv4
+
 = 큐, 워커, 토큰, 인증
+
 = Security - Web, DB
 
 
