@@ -1,10 +1,10 @@
 # Interview
 
-#### Cloud
+#### = Cloud
 - Private Cloud, Public Cloud
 - IaaS (infra-EC2,S3), PaaS(Platform-Heroku,Netlify), SaaS(Software-Application-Googledocs,Office365), FaaS(Microservice)
 
-#### RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
+#### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
 
 - RSA private key를 계산하는 데 걸리는 최대 시간과 비용(AWS)
@@ -12,7 +12,7 @@
   - 2048-bit : 1,000개의 machine을 사용하여 17일 소요 
   - 3072-bit 나 4096-bit 인 경우는 인수분해에 시간이 많이 걸리기 때문에 실현성이 없다
 
-#### 상호 (TLS) 인증
+#### = 상호 (TLS) 인증
 - 상호 인증은 데이터 보안을 보장하기 위해 민감한 데이터를 전송하는 시스템에서 사용하며, 인증 프로토콜상에서 두 당사자가 동시에 서로를 인증하는 것을 말합니다. 상호 인증은 사물 인터넷(IoT)에서 자주 사용.
 
 
