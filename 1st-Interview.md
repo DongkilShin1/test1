@@ -20,19 +20,24 @@
 - DHCP: 클라이언트 PC에 동적 IP할당 - discovery, offer, request, ack
 
 #### = DNS 원리
-- DNS: URL -> IP - A, NS, CNAME
+- DNS: URL -> IP - A (IP mapping), NS(Name Server), CNAME (별칭), MX(이메일)
 - Local DNS Server - Root DNS server - TopLevelDomain (ccTLD(kr), gTLD(com)) : Recursive Query
 
 - GSLB: 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
 
 #### = stateful과 stateless의 차이 ?
+- stateless: 과거 트랜잭션에 대한 정보 또는 참조가 저장되지 않고, 각 트랜잭션은 모두 처음부터 시작
+- stateful: 스테이트풀은 이전 트랜잭션의 컨텍스트에 따라 수행되며, 현재 트랜잭션이 이전 트랜잭션에서 발생한 상황에 영향 받음. 스테이트풀 애플리케이션은 사용자에게 받은 요청을 처리할 때마다 같은 서버를 사용.
 - stateful 은 클라이언트와 서버가 커넥션을 맺고, 클라이언트가 강제 종료를 해도 세션이 유지되지만, stateless는 세션이 종료가 됨.
 
-#### = forward proxy와 reverse proxy의 차이점?
-
+#### = Forward Proxy, Reverse Proxy의 차이점?
+- proxy: 클라이언트가 프록시 서버를 통하여(대신하여) 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해 주는 것
+- forward proxy: 클라이언트 앞단에 있다. 클라이언트가 감춰진다. 요청 받는 서버는 포워드 프록시 서버를 통해서 요청을 받기 때문에 클라이언트의 정보를 알 수 없다.
+- reverse proxy: 실제 서버 앞단에 있다. 서버가 감춰진다. 클라이언트는 리버스 프록시 서버에게 요청하기 때문에 실제 서버의 정보를 알 수가 없다.
 
 #### = Authentication과 Authorization의 차이점
-
+- Authentication (인증): 신원을 확인하는 프로세스
+- Authorization (권한부여):  무엇을 할 수 있는지 결정하는 프로세스
 
 #### = 보안과 관련된 key 처리
 - KMS
@@ -40,22 +45,31 @@
   2. 암호화 키의 분배, 관리 기능
 
 #### XML, JSON이 무엇이고 차이가 뭔지
-- XML
-- JSON
+- XML: 
+- JSON: 
 - 
 
-#### = 스토리지의 가용성을 높이는 기술?
-
+#### = 스토리지의 가용성을 높이는 기술
+- 미러링 (RAID 1)
 
 #### = FIFO, LIFO의 차이?
 
 
 #### = ipv4
 
-#### = 큐, 워커, 토큰, 인증
+
+#### = 큐, 워커, 토큰인증
+- 큐: 
+- 워커: 
+- 토큰인증: 
 
 #### = Security - Web, DB
+- SQL Injection: 
+- XSS (Cross Site Script):
 
+#### = DataWare House, DataLake
+- DataWareHouse:
+- DataLake:
 
 #### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
