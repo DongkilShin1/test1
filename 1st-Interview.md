@@ -52,12 +52,12 @@
 - 미러링 (RAID 1)
 
 #### = FIFO, LIFO의 차이?
-- FIFO: 
-- LIFO:
+- FIFO: Queue
+- LIFO: Stack
 
 #### = ipv4
-- ipv4: 
-- ipv6:
+- ipv4: 32bit - 8비트씩 4부분으로 나누어 각 부분을 콤마(.)으로 구분, 10진수로 표시
+- ipv6: 128bit - 16비트씩 8부분으로 나누어 각 부분을 콜론(:)으로 구분, 16진수로 표시
 
 #### = 큐, 워커, 토큰인증
 - 큐: 
@@ -65,8 +65,22 @@
 - 토큰인증: 
 
 #### = Security - Web, DB
-- SQL Injection: 
-- XSS (Cross Site Script):
+- SQL Injection: 입력창/param 등에 sql를 삽입하여 데이터베이스 조작. 프로그램 보안 상의 허점을 의도적으로 이용해, 악의적인 SQL문을 실행되게 함으로써 DB를 비정상적으로 조작
+- DDoS attack
+  - SYN Flooding: 다량의 Syn 패킷을 서버로 전달하여 서버의 대기큐를 가득채워 새로운 클라이언트의 연결요청을 무시하도록 하여 장애를 유발 시키는 공격 
+  - HTTP Get Flooding: 정상적인 TCP 세션과 함께 정상적으로 보이는 HTTP Get 요청을 지속적으로 발생시켜, TCP 세션 처리 및 HTTP 요청 처리까지 수행, HTTP 처리 모듈의 과부하 야기
+  - TCP Flooding: TCP 3-Way Handshake 과정을 과도하게 유발함으로써 서비스의 과부하를 야기시키는 공격 유형
+  - UDP Flooding: DoS 공격(Denial-of-service attack)의 한 종류로써 많은 수의 UDP packet을 victim에 전송하여 정상적인 서비스가 불가능하도록 하는 공격
+- XSS (Cross Site Script)
+  - 웹 애플리케이션에서 일어나는 취약점으로, 해당 사이트에 접속하는 유저들의 정보를 탈취하는 공격 기법 (Stored(Persistent), Reflected, DOM based)
+  1. Persistent(or Stored) XSS (지속형 혹은 저장형)
+  - 웹 애플리케이션의 취약한 곳에 악성 스크립트를 삽입 - 해당 스크립트는 DB에 저장됨
+  - 악성 스크립트가 저장된 게시글 등을 열람한 사용자들은 쿠키를 탈취당하던가 다른 사이트로 리디렉션 되는 공격 받음
+  2. Reflected XSS (반사형)
+  - 사용자에게 입력받은 검색어를 그대로 보여주는 곳에 스크립트 삽입하여 서버가 사용자의 입력 값을 포함해 응답할 때 스크립트 실행
+  3. DOM based XSS (Document Object Model 기반)
+  - 악의적인 스크립트가 포함된 URL을 사용자가 요청하게 되어 브라우저를 해석하는 단계에서 공격
+  - 악의적인 스크립트로 인해 클라이언트 측 코드가 원래 의도와는 다르게 실행됨
 
 #### = Data WareHouse, Data Lake, Data Mart
 - Data WareHouse: 다양한 원천을 join 등을 시용하여 하나의 통합된 형태로 정제한 것 (ETL)
