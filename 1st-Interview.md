@@ -243,6 +243,7 @@ https://velog.io/@parkdasol/CICD
 ![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
 
 - 부하 분산, 기본 RoundRobin 방식
+- L4 작동 알고리즘 - RR, Least connection, latency, Hash(ip를 hash 테이블과 생성해서 나온값으로 서버 선정, client쪽에서 한번 선택된 리얼 서버는 계속 한쪽 서버로 서비스 하게 됨.
 ##### L4 로드밸런서
 - Layer 4 정보(TCP/UDP port)를 바탕으로 패킷을 분류하고 원하는 서버나 장비로 전송(__포트 기반 필터링__ )
 ##### L7 로드밸런서
