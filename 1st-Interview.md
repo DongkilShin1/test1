@@ -10,37 +10,51 @@
 - 가용전력이 충분히 확보가 되어 있는지
 - 확장성을 고려한 데이터센터 선정이 중요
 
-#### 
+#### = TCP/IP
+- 응용계층(세션계층, 표현계층, 응용계층)
+- TCP: 전송계층(전송계층)
+- IP: 인터넷계층(네트워크계층)
+- Network or Link (물리계층, 데이터링크계층)
 
-= tcp/ip
+#### = DHCP
+- DHCP: 클라이언트 PC에 동적 IP할당 - discovery, offer, request, ack
 
-= DHCP
+#### = DNS 원리
+- DNS: URL -> IP - A, NS, CNAME
+- Local DNS Server - Root DNS server - TopLevelDomain (ccTLD(kr), gTLD(com)) : Recursive Query
 
-= DNS 원리
+- GSLB: 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
 
-= stateful과 stateless의 차이는 ?
+#### = stateful과 stateless의 차이 ?
 - stateful 은 클라이언트와 서버가 커넥션을 맺고, 클라이언트가 강제 종료를 해도 세션이 유지되지만, stateless는 세션이 종료가 됨.
 
-= forward proxy와 reverse proxy의 차이점?
+#### = forward proxy와 reverse proxy의 차이점?
 
-= Authentication과 Authorization의 차이점
 
-= 보안과 관련된 key 처리
+#### = Authentication과 Authorization의 차이점
+
+
+#### = 보안과 관련된 key 처리
 - KMS
   1. 암호화 키의 보관, 관리 기능
   2. 암호화 키의 분배, 관리 기능
 
-= XML, JSON이 무엇이고 차이가 뭔지
+#### XML, JSON이 무엇이고 차이가 뭔지
+- XML
+- JSON
+- 
 
-= 스토리지의 가용성을 높이는 기술은?
+#### = 스토리지의 가용성을 높이는 기술?
 
-= fifo/lifo의 차이는?
 
-= ipv4
+#### = FIFO, LIFO의 차이?
 
-= 큐, 워커, 토큰, 인증
 
-= Security - Web, DB
+#### = ipv4
+
+#### = 큐, 워커, 토큰, 인증
+
+#### = Security - Web, DB
 
 
 #### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
