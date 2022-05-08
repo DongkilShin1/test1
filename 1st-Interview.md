@@ -4,6 +4,12 @@
 - Private Cloud, Public Cloud
 - IaaS (infra-EC2,S3), PaaS(Platform-Heroku,Netlify), SaaS(Software-Application-Googledocs,Office365), FaaS(Microservice)
 
+#### = DataCenter 선정시 중요 부분
+- 물리적 인프라에 대한 가용성 평가
+- 물리적인 안전성과 보안성
+- 가용전력이 충분히 확보가 되어 있는지
+- 확장성을 고려한 데이터센터 선정이 중요
+
 #### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
 
