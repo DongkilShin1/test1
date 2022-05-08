@@ -2,7 +2,7 @@
 
 #### Cloud
 - Private Cloud, Public Cloud
-- IaaS (infra-EC2,S3), PaaS(Platform-Heroku,Netlify), SaaS(Software-Application-googledocs,office365), FaaS(Microservice)
+- IaaS (infra-EC2,S3), PaaS(Platform-Heroku,Netlify), SaaS(Software-Application-Googledocs,Office365), FaaS(Microservice)
 
 #### RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
