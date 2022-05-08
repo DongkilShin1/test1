@@ -12,6 +12,10 @@
   - 2048-bit : 1,000개의 machine을 사용하여 17일 소요 
   - 3072-bit 나 4096-bit 인 경우는 인수분해에 시간이 많이 걸리기 때문에 실현성이 없다
 
+#### 상호 (TLS) 인증
+- 상호 인증은 데이터 보안을 보장하기 위해 민감한 데이터를 전송하는 시스템에서 사용하며, 인증 프로토콜상에서 두 당사자가 동시에 서로를 인증하는 것을 말합니다. 상호 인증은 사물 인터넷(IoT)에서 자주 사용.
+
+
 #### = 3 tier 웹 어플리케이션의 정의와 구성방식?
 https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98
 https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
