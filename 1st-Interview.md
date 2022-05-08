@@ -86,7 +86,7 @@ replication은 복제하는 것이다. distribution과 달리 replication만의 
 4. __정리__
 Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제로 쉬운건 아니지만 머신의 성능(capacity)을 높여주면 되기 때문에 상대적으로 쉽다고 볼 수 있다. distribution, replication, and caching을 결합한 형태는 실제로 많이 사용되는 테크닉이다. Administrative scalability는 기술적인 측면이 아니라서 세 가지 중에서 가장 해결하기 어려운 것이다.
 
-#### - 컨테이너? (Container)
+#### = 컨테이너? (Container)
 - 컨테이너는 __커널 공유하는 방법__ 으로 호스트 OS 하나에서 여러 OS를 __가상화__
 - 애플리케이션을 구동하는 환경을 격리한 공간. 예) Docker (Container Runtime)
 - Hypervisor vs Container
@@ -95,7 +95,7 @@ Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제
 
 ![21](https://user-images.githubusercontent.com/94558947/167036130-980026f6-6254-49a5-9eaa-4abb78818a70.PNG)
 
-#### - CI/CD? (Continuous Integration / Continuous Deployment, Delivery)
+#### = CI/CD? (Continuous Integration / Continuous Deployment, Delivery)
 https://helloworld-88.tistory.com/50
 
 The process begins after some changes are committed to a version control system (e.g. Git), the __CI/CD framework (e.g. Jenkins)__ would detect the changes and trigger the automated tests to begin. __If the changes pass the tests, the CI/CD framework would trigger__ the build automation tool (e.g. Docker); finally, the framework would trigger the deployment automation tool (e.g. Kubernetes) and send the new version to production.
@@ -121,7 +121,7 @@ https://velog.io/@parkdasol/CICD
 - CD(Contious Delivery) - 개발자들이 코드를 작성하면 레포지토리에 업로드하여 지속적으로 __배포 가능한 상태를 유지하는 것을 의미. 레포지토리에서 고객이 사용 가능한 서비스 환경까지 자동으로 릴리즈__ 할 수 있는 것이다.
 - 코드 변경이 파이프라인의 이전 단계를 __모두 성공적으로 통과하면 수동 개입 없이 해당 변경 사항이 프로덕션에 자동으로 배포.__ 지속적 배포는 품질 저하 없이 사용자에게 기능을 빠르게 제공하기 위해 자동화 사용을 극대화한다.
 
-#### - Micro services design 의 장단점?
+#### = Micro services design 의 장단점?
 - Micro Services: 대형 소프트웨어 프로젝트의 기능들을 작고 독립적이며 느슨하게 결합된 모듈로 분해하여 서비스를 제공하는 아키텍처이며, 각 개별 모듈은 개별적인 작업을 담당하며 API를 통해 다른 모듈과 통신합니다.
 - https://giljae.medium.com/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-microservices-architecture-%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90-7c45615cfe1a
 ##### 마이크로 서비스 장점
@@ -142,7 +142,7 @@ Monolithic 아키텍처: challenges
 - 어플리케이션내의 특정 기능이 실패하면 전체 어플리케이션에 영향을 미칩니다. 그리고 퍼포먼스가 나쁜 특정 함수/메소드의 영향이 전체 어플리케이션에 고통을 주게 됩니다. 이런 아키텍처에서의 scaling은 서버마다 동일한 war or ear을 배포하여 수행해야 합니다. 각각 서버는 동일한 리소스를 사용하게 되므로 이 것은 효율적인 방법이 아닙니다.
 - 어플리케이션이 커질수록 개발자는 작은 단위로 작업을 축소할 수 있어야 합니다. Monolithic은 모든 것이 하나로 묶여 있기 때문에 개발자가 독립적으로 모듈을 개발하고 배포 할 수 없습니다. 그리고 개발은 협업으로 진행되므로 다른 개발자에 의존성때문에 개발 시간이 길어지게 됩니다.
 
-#### - Load Balancer란?
+#### = Load Balancer란?
 ![image](https://user-images.githubusercontent.com/94558947/157914203-6ae42ac9-c84b-4567-a42a-2901a1b45475.png)
 
 - 부하 분산, 기본 RoundRobin 방식
@@ -151,7 +151,7 @@ Monolithic 아키텍처: challenges
 ##### L7 로드밸런서
 - 이메일의 제목이나 __문자열 파악 또는 HTTP의 URL 또는 FTP의 파일명, 쿠키 정보, 특정 바이러스의 패턴__ 등을 기준으로 트래픽을 분산하는 방법으로 보안에 더욱 유리하고 더욱 정교한 로드 밸런싱(__콘텐츠 기반 제어__ )
 
-#### - TCP와 UDP의 차이는?
+#### = TCP와 UDP의 차이는?
 ##### TCP 
 - Connection-oriented protocol
 - 속도는 느리나 유실데이터 재전송하여 신뢰성
@@ -162,7 +162,7 @@ Monolithic 아키텍처: challenges
 - 속도 빠르고 효율적이나 저품질
 - 음성전화, 동영상 등 빠른
 
-#### OSI 7
+#### = OSI 7
 - Application : 사용자가 __어플리케이션__ 을 이용해서 데이터를 입력하고 가공할 수 있다.
 - Presentation : __데이터 표현방법인 인코딩, 암호화__ , 압축 등을 할 수 있다.
 - Session : 연결을 관장함. 논리적인 __통신의 유지, 관리, 생성__ 를 담당.
@@ -171,8 +171,8 @@ Monolithic 아키텍처: challenges
 - Data Link : MAC(__매체 접근 제어__ ) 주소를 이용해 .
 - Physical : __디지털 신호를 전기 신호로__ 전송.
 
-#### - RDBMS와 NoSQL의 차이는?
-##### RDBMS
+#### = RDBMS와 NoSQL의 차이는?
+##### - RDBMS
 - 테이블이 __다른 테이블들과 관계를 맺고__ 모여있는 집합체. 
 - 관계를 나타내기 위해 __외래 키(foreign key)__ 사용
 - 외래 키를 이용한 __테이블 간 Join__ 이 가능.
@@ -186,7 +186,7 @@ __- 단점__
 성능 향상을 위해서는 서버의 성능을 향상 시켜야하는 __Scale-up만 지원.__ 비용이 기하급수적으로 늘어날 수 있음.
 __스키마로 인해 데이터가 유연하지 못함__. 나중에 스키마가 변경 될 경우 번거롭고 어렵습니다.
 
-##### NoSQL
+##### - NoSQL
 - 정해진 스키마 없음, 자유로운 데이터 구조(유연성), 테이블간 관계 정의 없음
 
 __장점__
@@ -217,7 +217,7 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 
 - NoSQL은 __정확한 데이터 구조를 알 수 없고 데이터가 확장이 될 수 있는 경우__ 에 사용하는 것이 좋습니다. 또한 단점에서도 명확하듯이 데이터 중복이 발생할 수 있으며 중복된 데이터가 변경될 시에는 모든 컬렉션에서 수정을 해야 합니다. 이러한 특징들을 기반으로 __Update가 많이 이루어지지 않는 시스템에 좋으며__ 또한 Scale-out이 가능하다는 장점을 활용해 __막대한 데이터를 저장해야 해서 Database__ 를 Scale-Out를 해야 되는 시스템에 적합합니다.
 
-#### - 웹방화벽이 일반 방화벽과 어떻게 다른지?
+#### = 웹방화벽이 일반 방화벽과 어떻게 다른지?
 - 웹방화벽(WAF)은 웹 애플리케이션에 대한 공격을 탐지/차단하는 보안 장비로서, HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
 - 일반 네트워크 방화벽은 약속된(Reserved) 포트의 차단/허용 방식 방어 (L3, L4)
 
@@ -229,7 +229,7 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 - Replicas
 - Master, Slave
  
-#### HTTP / HTTPS / SSL
+#### = HTTP / HTTPS / SSL
 - CRUD(Create, Read, Update, Delete) 동작 - Post, Get, Put, Delete
 - __GET__ 은 __주소줄__ 에 값이 ?뒤에 쌍으로 이어붙고 __POST__ 는 숨겨져서(__body안에__ ) 보내진다.
 - __GET은 서버에서 어떤 데이터를 가져와서 보여준다거나 하는 용도__
@@ -276,24 +276,24 @@ __SSL 동작원리__:
 __CA(Certificate Authority)__: 
 인증서의 역할은 클라이언트가 접속한 서버가 __클라이언트가 의도한 서버가 맞는지__ 를 보장하는 역할. 민간 기업도 가능
 
-##### - CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 가장 가까운 캐싱 서버에서 콘텐츠를 전송하는 서비스.
+##### = CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 가장 가까운 캐싱 서버에서 콘텐츠를 전송하는 서비스.
 - CDN은 콘텐츠에 대한 요청이 발생하면 최적으로 배치된 CDN 서버에 엔드유저가 매핑되고, 해당 서버는 요청된 파일의 캐싱된(사전 저장된) 버전으로 응답합니다. 
 - 서버가 파일을 찾는 데 실패하는 경우 CDN 플랫폼의 다른 서버에서 콘텐츠를 찾은 다음 엔드유저에게 응답을 전송합니다.
 - 콘텐츠를 사용할 수 없거나 콘텐츠가 오래된 경우, CDN은 오리진 서버에 대한 요청 프록시로 작동하여 향후 요청에 대해 응답할 수 있도록 페칭된 콘텐츠를 저장합니다 (CDN이 오리진에 프록시로 작동하며 CDN이 오리진으로부터 전용네트워크로 다운받아 전송)
 - https://www.akamai.com/ko/our-thinking/cdn/what-is-a-cdn
 - https://goddaehee.tistory.com/173
 - 
-##### - Docker image 설명
+##### = Docker image 설명
 - https://www.lainyzine.com/ko/article/understanding-docker-hub-and-docker-official-images/
 - Docker Hub는 Docker 이미지 repository. Docker 이미지를 저장하는 원격 스토리지를 Image Registry라고 부르며, Docker Hub는 공식 Image Registry입니다
 - 누구나 만들 수 있기 때문에 만들어진 이미지를 편리하게 사용할 수도 있습니다만, 공식 이미지(Offcial Images), 인증된 퍼블리셔(Verified Publisher)의 이미지나 자신이 직접 만든 이미지만 사용하는 것을 강력히 권장합니다.
 - Docker File이란 Docker Image를 만들기 위한 설정 파일입니다. 여러가지 명령어를 토대로 Docker File을 작성하면 설정된 내용대로 Docker Image를 만들 수 있습니다.
 - https://khj93.tistory.com/entry/Docker-Docker-File-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4
 
-##### - WAF설명: HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
-##### - LB 설명: 부하 분산, 기본 RoundRobin 방식
+##### = WAF설명: HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
+##### = LB 설명: 부하 분산, 기본 RoundRobin 방식
 
-#### Blcok / Object storage 차이
+#### = Blcok / Object storage 차이
 - DAS(Local 스토리지-직접): Instance storage
 - NAS(File 스토리지-LAN네트워크-주차타워-데이타가 계층형 구조로 저장: 저장경로 따라 접근): EFS
 - SAN(__Block스토리지__ -별도네트워크-주차장-데이타가 엄격히 정의된 블록에 저장: 블록위치 따라 접근): __EBS__ - 정형, RDB
@@ -317,7 +317,7 @@ __Object 스토리지 접근__
 하지만 오브젝트는 파일 시스템이 없기 때문에, __오브젝트와 함께 그것을 관리해야 하는 것__ 이다.
 (파일스토리지와 다른 점은 File스토리지는 1개의 경로만 갖는데 반해, Block스토리지는 여러 개의 경로를 가질 수 있다.)
 
-#### - RAID는?
+#### = RAID는?
 - RAID 0: Stripe
 - RAID 1: Mirroring
 - RAID 5: Parity
@@ -325,7 +325,7 @@ __Object 스토리지 접근__
  
 ![image](https://user-images.githubusercontent.com/94558947/167210392-c09849b9-46e9-48b8-a78d-a3bf9901f3a9.png)
 
-#### - Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
+#### = Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
   - HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
   - MapReduce
     - Map: 흩어져 있는 데이터를 key, value 형태로 연관성 있는 데이터 분류로 묶는 작업
