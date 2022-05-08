@@ -122,7 +122,7 @@ https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
 - Application Layer (MiddleWare or BackEnd) - WAS server: PHP, Python - DB관련 처리 or 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
 - Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostgreSql
 - Web -> WAS -> DB or Web/WAS -> DB
-- 미들웨어 기능: 트랜잭션 처리, 부하분산 기능
+- 미들웨어 기능: 트랜잭션 처리, 부하분산 기능, 보안
 
 #### = 1픽셀은 몇 byte?
 https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
