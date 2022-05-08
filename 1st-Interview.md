@@ -26,6 +26,9 @@
 = Authentication과 Authorization의 차이점
 
 = 보안과 관련된 key 처리
+- KMS
+  1. 암호화 키의 보관, 관리 기능
+  2. 암호화 키의 분배, 관리 기능
 
 = XML, JSON이 무엇이고 차이가 뭔지
 
