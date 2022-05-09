@@ -456,3 +456,18 @@ __Object 스토리지 접근__
 
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
+
+
+
+BGP
+MPLS
+GAN
+CNN
+SDN
+DB - Index
+NoSQL
+WAF
+Microservice
+LB: L4, L7
+MFA
+
