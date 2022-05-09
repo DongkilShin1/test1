@@ -482,6 +482,8 @@ https://velog.io/@rzbsys/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%95%A9%EC%84%B1
 - Classification Layer는 FCNN(Fully Connected Neural Network)과 같다. FCNN은 input image를 픽셀의 행으로 직렬화 한 후, 이것을 입력 신호로 주는 방식으로 동작한다.
 
 #### SDN
+- SDN에서 핵심은 네트워크 장비의 Control Plane(제어부)와 Data Plane(전송부)의 분리이다
+- 네트워크 리소스를 가상화하고 소프트웨어 애플리케이션과 API를 이용하여 네트워크를 프로그래밍하고, 중앙에서 전체 네트워크를 제어하고 관리.
 - 
 
 #### DB: Index
