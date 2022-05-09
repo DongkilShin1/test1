@@ -457,10 +457,9 @@ __Object 스토리지 접근__
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
 
-
-
-- BGP
-- MPLS
+#### BGP: 
+- 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different peers) 가 있다.
+#### MPLS: 
 - GAN: 생성모델, 분류모델
 - CNN
 - SDN
@@ -471,4 +470,4 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 - LB: L4, L7
 - MFA
 - ML-Ops
-- 가상화
+#### 가상화
