@@ -457,14 +457,24 @@ __Object 스토리지 접근__
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
 
-#### BGP: 
+#### BGP 
 - 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different AS) 가 있다.
-#### MPLS: 
-- GAN: 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
+#### MPLS
+
+#### GAN
+- 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
   - 생성모델과 분류모델이 서로 경쟁(Adversarial)하며 데이터를 생성(Generative), 분류하면서 성능을 개선해 가는 것. 만약, GAN으로 인물 사진을 생성해 낸다면 인물 사진을 만들어내는 것을 Generator(생성자)라고 하며 만들어진 인물 사진을 평가하는 것을 Discriminator(구분자)라고 합니다. 생성자와 구분자가 서로 대립하며(Adversarial:대립하는) 서로의 성능을 점차 개선해 나가는 쪽으로 학습이 진행되는 것이 주요 개념입니다.
 
-- CNN
-- SDN
+#### CNN
+https://bong-sik.tistory.com/21
+https://velog.io/@rzbsys/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%95%A9%EC%84%B1%EA%B3%B1Convolution-%EC%97%B0%EC%82%B0
+
+- 커널과 이미지를 좌측 상단에 겹친 후, 서로 맞닫는 부분의 곱 구하고 합한다(Convolution연산). 그 후 커널을 이동하면서 계속 Convolution 연산 한다. (슬라이딩 윈도우 알고리즘과 유사)
+- Convolution layer는 입력 데이터로부터 특징을 추출하는 역할을 한다.
+- Convolution layer를 거쳐 나온 feature map 에서 모든 데이터가 필요하지는 않다. pooling(sub-sampling) layer를 거치면서 (이미지 크기도 줄이고) 특정 feature만 강조하게 된다.
+- Classification Layer는 FCNN(Fully Connected Neural Network)과 같다. FCNN은 input image를 픽셀의 행으로 직렬화 한 후, 이것을 입력 신호로 주는 방식으로 동작한다.
+
+#### SDN
 - DB: Index
 - NoSQL
 - WAF
