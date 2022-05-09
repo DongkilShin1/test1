@@ -457,9 +457,16 @@ __Object 스토리지 접근__
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
 
-#### BGP 
+#### BGP (Border Gateway Protocol)
 - 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different AS) 가 있다.
-#### MPLS
+
+#### MPLS (Label Switching)
+- 패킷 전달 고속화하기 위해  L2 스위칭(교환) 기술 사용하고, 망 확장성 제공하기 위해서 L3 라우팅 기능을 접목한 L3 스위칭 기술
+- 짧고 고정된 길이의 레이블을 기반으로 패킷을 전송하는 레이블 교환(Label Switching) 방식(L2)을 이용하며, IP 패킷을 목적지까지 전송하기 위해 IP 헤더 처리 과정(L3)이 MPLS 망에 진입하는 시점에서 단 한 번만(Push) 수행
+- 그리고 이 시점에서 IP 패킷이 하나의 레이블로 매핑됨으로써 스위칭 기술을 이용한 고속의 L2 데이터 전송이 이루어지며, TE(MPLS-TE), VPN(MPLS-VPN = MP-BGP) 까지 제공 가능
+- MPLS를 이용하려면 라우터에 적용해야 하는 설정이 많습니다. MPLS는 본래 성능 개선과 간소화를 위해 오버레이 기법으로 설계된 기술입니다. 터널링과 비슷.
+- MPLS는 ISP가 사전 경로(LSP)를 미리 세팅 -> MPLS 네트워크를 통해서 소스에서 목적지까지 패킷이 통과하는 경로를 모든 네트워크 위치에서 데이터 전송을 위해 LSP를 설정.
+-  어느 기반 프로토콜(MultiProtocol)에서든 포워딩 테이블을 만들 수 있습니다. 
 
 #### GAN
 - 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
@@ -475,16 +482,31 @@ https://velog.io/@rzbsys/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%95%A9%EC%84%B1
 - Classification Layer는 FCNN(Fully Connected Neural Network)과 같다. FCNN은 input image를 픽셀의 행으로 직렬화 한 후, 이것을 입력 신호로 주는 방식으로 동작한다.
 
 #### SDN
-- DB: Index
-- NoSQL
-- WAF
-- Microservice
-- LB: L4, L7
-- MFA
-- ML-Ops
+- 
+
+#### DB: Index
+https://cano721.tistory.com/m/77
+- 데이터베이스에서 인덱스는 테이블의 검색 속도를 향상시키기 위한 자료구조, 책 목차처럼 해당 컬럼이 어디에 있는지 저장하여, 해당부분만 검색할 수 있게 하여 검색속도를 향상.
+
+#### NoSQL
+- 비정형, 대용량 데이터 저장
+
+#### WAF
+-
+
+#### Microservice
+- 
+
+#### LB: L4, L7
+#### MFA
+-
+
+#### ML-Ops
+-
+
 #### 가상화
 - 가상화는 하드웨어의 기능을 공유(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
+
 #### Machine Learning
 - Predict/Forecast: Regression, Classification
 - Learning: Supervised (label), Unsupervised Learning(no label)
- 
