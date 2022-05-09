@@ -461,7 +461,7 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 - 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different AS) 가 있다.
 
 #### MPLS (Label Switching)
-- 패킷 전달 고속화하기 위해  L2 스위칭(교환) 기술 사용하고, 망 확장성 제공하기 위해서 L3 라우팅 기능을 접목한 L3 스위칭 기술
+- 패킷 전달 고속화하기 위해  L2 스위칭(교환) 기술 사용하고, 망 확장성 제공하기 위해서 L3 라우팅 기능을 접목한 L3 스위칭 기술 - 
 - 짧고 고정된 길이의 레이블을 기반으로 패킷을 전송하는 레이블 교환(Label Switching) 방식(L2)을 이용하며, IP 패킷을 목적지까지 전송하기 위해 IP 헤더 처리 과정(L3)이 MPLS 망에 진입하는 시점에서 단 한 번만(Push) 수행
 - 그리고 이 시점에서 IP 패킷이 하나의 레이블로 매핑됨으로써 스위칭 기술을 이용한 고속의 L2 데이터 전송이 이루어지며, TE(MPLS-TE), VPN(MPLS-VPN = MP-BGP) 까지 제공 가능
 - MPLS를 이용하려면 라우터에 적용해야 하는 설정이 많습니다. MPLS는 본래 성능 개선과 간소화를 위해 오버레이 기법으로 설계된 기술입니다. 터널링과 비슷.
