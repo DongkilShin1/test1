@@ -484,7 +484,7 @@ https://velog.io/@rzbsys/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%95%A9%EC%84%B1
 #### SDN
 - SDN에서 핵심은 네트워크 장비의 Control Plane(제어부)와 Data Plane(전송부)의 분리이다
 - 네트워크 리소스를 가상화하고 소프트웨어 애플리케이션과 API를 이용하여 네트워크를 프로그래밍하고, 중앙에서 전체 네트워크를 제어하고 관리.
-- Network overlay: 
+- Network overlay: VxLAN
 
 #### DB: Index
 https://cano721.tistory.com/m/77
