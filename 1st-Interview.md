@@ -460,7 +460,9 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 #### BGP: 
 - 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different AS) 가 있다.
 #### MPLS: 
-- GAN: 생성모델, 분류모델
+- GAN: 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
+  - 생성모델과 분류모델이 서로 경쟁(Adversarial)하며 데이터를 생성(Generative)하는 하여 성능을 개선해 가는 것. 만약, GAN으로 인물 사진을 생성해 낸다면 인물 사진을 만들어내는 것을 Generator(생성자)라고 하며 만들어진 인물 사진을 평가하는 것을 Discriminator(구분자)라고 합니다. 생성자와 구분자가 서로 대립하며(Adversarial:대립하는) 서로의 성능을 점차 개선해 나가는 쪽으로 학습이 진행되는 것이 주요 개념입니다.
+
 - CNN
 - SDN
 - DB: Index
@@ -472,3 +474,7 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 - ML-Ops
 #### 가상화
 - 가상화는 하드웨어의 기능을 공유(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
+#### Machine Learning
+- Predict/Forecast: Regression, Classification
+- Learning: Supervised (label), Unsupervised Learning(no label)
+ 
