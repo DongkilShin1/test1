@@ -498,11 +498,12 @@ https://cano721.tistory.com/m/77
 
 #### LB: L4, L7
 #### MFA
--
+- 사용자를 두가지 이상의 다른 카테고리에서 검증하여, 사용자를 식별하는 프로세스. 핀번호, 모바일장치, 지문 등 사용
 
 #### ML-Ops
--  [deploy and maintain machine learning models in production reliably and efficiently]
-- 
+- 머신러닝 모델을 안정적으로 프로덕션에 관리, 배포하는 것
+- Devops, Data Engineering, Machine Learning의 교차점
+
 #### 가상화
 - 가상화는 하드웨어의 기능을 공유(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
 
