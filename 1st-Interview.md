@@ -471,3 +471,4 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 - MFA
 - ML-Ops
 #### 가상화
+- 가상화는 하드웨어의 기능을 공유(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
