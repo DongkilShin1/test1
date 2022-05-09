@@ -459,15 +459,14 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 
 
 
-BGP
-MPLS
-GAN
-CNN
-SDN
-DB - Index
-NoSQL
-WAF
-Microservice
-LB: L4, L7
-MFA
-
+- BGP
+- MPLS
+- GAN: 생성모델, 분류모델
+- CNN
+- SDN
+- DB: Index
+- NoSQL
+- WAF
+- Microservice
+- LB: L4, L7
+- MFA
