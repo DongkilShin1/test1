@@ -468,6 +468,9 @@ https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCat
 - MPLS는 ISP가 사전 경로(LSP)를 미리 세팅 -> MPLS 네트워크를 통해서 소스에서 목적지까지 패킷이 통과하는 경로를 모든 네트워크 위치에서 데이터 전송을 위해 LSP를 설정.
 -  어느 기반 프로토콜(MultiProtocol)에서든 포워딩 테이블을 만들 수 있습니다. 
 
+#### Anycast
+
+
 #### GAN
 - 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
   - 생성모델과 분류모델이 서로 경쟁(Adversarial)하며 데이터를 생성(Generative), 분류하면서 성능을 개선해 가는 것. 만약, GAN으로 인물 사진을 생성해 낸다면 인물 사진을 만들어내는 것을 Generator(생성자)라고 하며 만들어진 인물 사진을 평가하는 것을 Discriminator(구분자)라고 합니다. 생성자와 구분자가 서로 대립하며(Adversarial:대립하는) 서로의 성능을 점차 개선해 나가는 쪽으로 학습이 진행되는 것이 주요 개념입니다.
