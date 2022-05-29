@@ -461,7 +461,9 @@ https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
 
 #### BGP (Border Gateway Protocol)
-- 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS), eBGP (exterior peers in different AS) 가 있다.
+- 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS)와 eBGP (exterior peers in different AS) 가 있다.
+- https://blog.naver.com/PostView.naver?blogId=taeheon714&logNo=222384978033&parentCategoryNo=&categoryNo=6&viewDate=&isShowPopularPosts=true&from=search
+- https://www.juniper.net/documentation/kr/ko/software/junos/bgp/topics/topic-map/bgp-overview.html
 
 #### MPLS (Label Switching)
 - 패킷 전달 고속화하기 위해  L2 스위칭(교환) 기술 사용하고, 망 확장성 제공하기 위해서 L3 라우팅 기능을 접목한 L3 스위칭 기술 - L2.5
