@@ -252,6 +252,8 @@ https://velog.io/@parkdasol/CICD
 ##### L7 로드밸런서
 - 이메일의 제목이나 __문자열 파악 또는 HTTP의 URL 또는 FTP의 파일명, 쿠키 정보, 특정 바이러스의 패턴__ 등을 기준으로 트래픽을 분산하는 방법으로 보안에 더욱 유리하고 더욱 정교한 로드 밸런싱(__콘텐츠 기반 제어__ )
 
+- https://dev.classmethod.jp/articles/load-balancing-types-and-algorithm/
+
 #### = TCP와 UDP의 차이는?
 ##### TCP 
 - Connection-oriented protocol
