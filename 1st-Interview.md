@@ -23,6 +23,9 @@
 - DNS: URL -> IP - A (IP mapping), NS(Name Server), CNAME (별칭), MX(이메일)
 - Local DNS Server - Root DNS server - TopLevelDomain (ccTLD(kr), gTLD(com)) : Recursive Query
 
+- https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/
+- https://aws.amazon.com/ko/route53/what-is-dns/
+
 - GSLB: 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
 
 #### = stateful과 stateless의 차이 ?
