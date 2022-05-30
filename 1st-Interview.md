@@ -7,14 +7,14 @@
 #### = DataCenter 선정시 중요 부분
 - 물리적 인프라에 대한 가용성 평가
 - 물리적인 안전성과 보안성
-- 가용전력이 충분히 확보가 되어 있는지
+- 가용전력이 충분히 확보 되어 있는지
 - 확장성을 고려한 데이터센터 선정이 중요
 
 #### = TCP/IP
 - 응용계층(세션계층, 표현계층, 응용계층)
-- TCP: 전송계층(전송계층)
-- IP: 인터넷계층(네트워크계층)
-- Network or Link (물리계층, 데이터링크계층)
+- TCP: 전송계층(전송계층-Transport)
+- IP: 인터넷계층(네트워크계층-Network)
+- Network or Link (데이터링크계층, 물리계층 - DataLink, Physical)
 
 #### = DHCP
 - DHCP: 클라이언트 PC에 동적 IP할당 - discovery, offer, request, ack
