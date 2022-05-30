@@ -26,7 +26,7 @@
 - https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/
 - https://aws.amazon.com/ko/route53/what-is-dns/
 
-- GSLB: 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
+- GSLB: DNS base, 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
 
 #### = stateful과 stateless의 차이 ?
 - stateless: 과거 트랜잭션에 대한 정보 또는 참조가 저장되지 않고, 각 트랜잭션은 모두 처음부터 시작
