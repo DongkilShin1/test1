@@ -20,7 +20,7 @@
 - DHCP: 클라이언트 PC에 동적 IP할당 - discovery, offer, request, ack
 
 #### = DNS 원리
-- DNS: URL -> IP - A (IP mapping), NS(Name Server), CNAME (별칭), MX(이메일)
+- DNS: __URL -> IP__ - A (IP mapping), NS(Name Server), CNAME (별칭), MX(이메일)
 - Local DNS Server - Root DNS server - TopLevelDomain (ccTLD(kr), gTLD(com)) : Recursive Query
 
 - https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/
