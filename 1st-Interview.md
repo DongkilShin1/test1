@@ -11,7 +11,7 @@
 - 확장성을 고려한 데이터센터 선정이 중요
 
 #### = TCP/IP
-- 응용계층(세션계층, 표현계층, 응용계층)
+- 응용계층(세션계층-S, 표현계층-P, 응용계층-A)
 - TCP: 전송계층(전송계층-Transport)
 - IP: 인터넷계층(네트워크계층-Network)
 - Network or Link (데이터링크계층, 물리계층 - DataLink, Physical)
