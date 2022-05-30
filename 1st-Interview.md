@@ -523,3 +523,6 @@ https://cano721.tistory.com/m/77
 #### Machine Learning
 - Predict/Forecast: Regression, Classification
 - Learning: Supervised (label), Unsupervised Learning(no label)
+
+####  cURL = Client URL
+클라이언트에서 커맨드 라인으로 웹브라우저에서와 같이  해주는 툴
