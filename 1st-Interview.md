@@ -525,4 +525,5 @@ https://cano721.tistory.com/m/77
 - Learning: Supervised (label), Unsupervised Learning(no label)
 
 ####  cURL = Client URL
-클라이언트에서 커맨드 라인으로 웹브라우저에서와 같이  해주는 툴
+- 클라이언트에서 커맨드 라인으로 웹브라우저에서와 같이 사용할수 있개 해주는 툴
+- url을 가지고 할 수 있는 것들은 대부분 할수 있으며, 다른 프로토콜 지원, SSL도 가능
