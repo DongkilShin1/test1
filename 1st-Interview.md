@@ -137,7 +137,7 @@ https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9
 - Step 1 : Hardware - Power On, BIOS, MBR (ROM)
 - Step 2 : BootLoader - GRUB (RAM)
 - Step 3 : Kernel - Kernel (Disk)
-- Step 4 : Init - Init Level, Login
+- Step 4 : Init - Init Level (0:halt, 1:single mode), Login
 
 #### = Distributed and Scalable systems 구성 시 고려할 요소
 ##### - Distributed and Scalable Systems 
