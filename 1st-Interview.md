@@ -102,8 +102,8 @@
 - ROCA (Coppersmith method) 취약점을 가진 RSA 키 라면, 공격자는 Target의 RSA public key(공개키) 를 가지고, Target의 RSA private key(개인키)를 reverse-calculation(인수분해 방식 사용)에 의해 알아낼 수 있다고 합니다. (RSA 키쌍을 생성시 Fast Prime방식 사용한 경우)
 
 - RSA private key를 계산하는 데 걸리는 최대 시간과 비용(AWS)
-  - 1024-bit(key-length : 45분 소요
-  - 2048-bit : 1,000개의 machine을 사용하여 17일 소요 
+  - 1024-bit(key-length: 1K bit) : 45분 소요
+  - 2048-bit (2K bit) : 1,000개의 machine을 사용하여 17일 소요 
   - 3072-bit 나 4096-bit 인 경우는 인수분해에 시간이 많이 걸리기 때문에 실현성이 없다
 
 #### = ID Federation: 외부에서 인증된 사용자에게 액세스 권한 제공.
@@ -121,11 +121,11 @@ https://velog.io/@parkdasol/3-tier-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%8
 https://www.ibm.com/kr-ko/cloud/learn/three-tier-architecture#toc---3--RNTI-Ww5
 
 ##### - 정의, 구성 방식
-- Presentation Layer (FrondEnd) - Web server:  Apache, Nginx, IIS - HTML, CSS, Javascript
-- Application Layer (MiddleWare or BackEnd) - WAS server: PHP, Python - DB관련 처리 or 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
-- Data Layer (DataBase or BackEnd) - DB server: DataBase - MySql, Oracle, PostgreSql
-- Web -> WAS -> DB or Web/WAS -> DB
-- 미들웨어 기능: 트랜잭션 처리, 부하분산 기능, 보안
+- __Presentation Layer__ (__FrondEnd__) - __Web server__:  Apache, Nginx, IIS - HTML, CSS, Javascript
+- __Application Layer__ (__MiddleWare__ or BackEnd) - __WAS server__: PHP, Python - DB관련 처리 or 동적 컨텐츠 처리 위한 것 - Tomcat, JBoss, WebLogic
+- __Data Layer__ (DataBase or __BackEnd__) - __DB server__: DataBase - MySql, Oracle, PostgreSql
+- __Web -> WAS -> DB__ or Web/WAS -> DB
+- __미들웨어 기능: 트랜잭션 처리, 부하분산 기능, 보안__
 
 #### = 1픽셀은 몇 byte?
 https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%9D%BC%EA%B9%8C
