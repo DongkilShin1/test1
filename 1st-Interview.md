@@ -253,10 +253,12 @@ https://velog.io/@parkdasol/CICD
 
 - 부하 분산, 기본 RoundRobin 방식
 - L4 작동 알고리즘 - RR, Least connection, latency, Hash(ip를 hash 테이블과 생성해서 나온값으로 서버 선정, client쪽에서 한번 선택된 리얼 서버는 계속 한쪽 서버로 서비스 하게 됨.
+
 ##### L4 로드밸런서
-- Layer 4 정보(TCP/UDP port)를 바탕으로 패킷을 분류하고 원하는 서버나 장비로 전송(__포트 기반 필터링__ )
+- Layer 4 정보(TCP/UDP port)를 바탕으로 패킷을 분류하고 원하는 서버나 장비로 전송(**포트 기반 필터링**)
+
 ##### L7 로드밸런서
-- 이메일의 제목이나 __문자열 파악 또는 HTTP의 URL 또는 FTP의 파일명, 쿠키 정보, 특정 바이러스의 패턴__ 등을 기준으로 트래픽을 분산하는 방법으로 보안에 더욱 유리하고 더욱 정교한 로드 밸런싱(__콘텐츠 기반 제어__ )
+- 이메일의 제목이나 __문자열 파악 또는 HTTP의 **URL** 또는 FTP의 파일명, 쿠키 정보, 특정 바이러스의 패턴__ 등을 기준으로 트래픽을 분산하는 방법으로 보안에 더욱 유리하고 더욱 정교한 로드 밸런싱(**콘텐츠 기반 제어**: 문자열, URL, 파일명, 패턴)
 
 - https://dev.classmethod.jp/articles/load-balancing-types-and-algorithm/
 
@@ -269,7 +271,7 @@ https://velog.io/@parkdasol/CICD
 ##### UDP
 - Connectionless protocol
 - 속도 빠르고 효율적이나 저품질
-- 음성전화, 동영상 등 빠른
+- 음성전화, 동영상 등 빠른 통신
 
 #### = OSI 7
 - Application : 사용자가 __어플리케이션__ 을 이용해서 데이터를 입력하고 가공할 수 있다.
@@ -287,8 +289,8 @@ https://velog.io/@parkdasol/CICD
 - 외래 키를 이용한 __테이블 간 Join__ 이 가능.
 
 __- 장점__
-스키마가 있고 테이블간 관계를 맺고 있음. 
-정해진 스키마에 따라 데이터를 저장하여야 하므로 명확한 데이터 구조 보장 
+스키마(**구조**)가 있고 테이블간 **관계**를 맺고 있음. 
+정해진 스키마에 따라 데이터를 저장하여야 하므로 **명확한 데이터 구조** 보장 
 
 __- 단점__
 테이블 간 관계를 맺고 있어 시스템이 커질 경우 __JOIN문이 많은 복잡한 쿼리__ 가 만들어짐.
@@ -300,10 +302,10 @@ __스키마로 인해 데이터가 유연하지 못함__. 나중에 스키마가
 
 __장점__
 NoSQL에서는 스키마가 없기 때문에 유연하며 자유로운 데이터 구조 가짐. __언제든__ 저장된 데이터 조정 및 새로운 필드 추가 가능
-__데이터 분산이 용이__ 하며 __성능 향상을 위한 Saclue-up 뿐만이 아닌 Scale-out 또한 가능__ .
+__데이터 분산이 용이__ 하며 __성능 향상을 위한 Scale-up 뿐만이 아닌 Scale-out 또한 가능__ .
 
 __단점__
-데이터 중복이 발생할 수 있으며 중복된 데이터가 변경 될 경우 수정을 모든 컬렉션에서 수행을 해야 합니다.
+**데이터 중복**이 발생할 수 있으며 중복된 데이터가 변경 될 경우 수정을 모든 컬렉션에서 수행을 해야 합니다.
 스키마가 존재하지 않기에 __명확한 데이터 구조를 보장하지 않으며__ 데이터 구조 결정이 어려울 수 있습니다.
 데이터 테이블은 그냥 하나의 테이블이며 테이블 간의 관계를 정의하지 않아 일반적으로 __테이블 간 Join도 불가능__ 합니다. 
 
@@ -328,7 +330,7 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 
 #### = 웹방화벽이 일반 방화벽과 어떻게 다른지?
 - 웹방화벽(WAF)은 웹 애플리케이션에 대한 공격을 탐지/차단하는 보안 장비로서, HTTP, HTTPS를 통한 공격 방어 기술을 가진 웹서비스 전용 장비 (L7), 복호화 가능
-- 일반 네트워크 방화벽은 약속된(Reserved) 포트의 차단/허용 방식 방어 (L3, L4)
+- 일반 네트워크 방화벽은 약속된(Reserved) IP, 포트의 차단/허용 방식 방어 (L3, L4)
 
 #### 웹서비스 DR(Disaster Recovery)
 - Auto Scale out by Kubernetes
@@ -349,15 +351,15 @@ Key-Value 모델과 다른 점이라면 __Value가 계층적인 형태인 도큐
 - HTTP는 암호화되지 않은 방법
 
 ##### HTTP2
-- Single TCP/IP connection (한 커넥션에 여러개의 메세지를 동시에 주고 받을 수 있음) -  성능 향상
-- Compressed binary header (Header 압축 전송) - much less space
-- Push capability (server push - HTML문서상에 필요한 리소스(when new data available)를 클라이언트 요청없이 보내줄 수 있음)
+- Single TCP/IP connection (한 커넥션에 **여러개의 메세지**를 동시에 주고 받을 수 있음) -  성능 향상
+- **Compressed** binary **header** (Header 압축 전송) - much less space
+- **Push** capability (server push - HTML문서상에 필요한 리소스(when new data available)를 클라이언트 요청없이 보내줄 수 있음)
 즉, __much less latency, more speed than HTTP1__
 
 ##### HTTPS
 - HTTP 프로토콜에 암호화 기능을 추가한 프로토콜
 - 데이터를 보낼 때 인증작업(암호화작업, 암호화 키 이용)을 거친다.
-- __키교환시 공개키 암호화 사용 후, 통신에서 메시지를 교환할 때는 공통키(대칭키) 암호화 사용__
+- __키(공통키)교환시 공개키 암호화 사용 후, 통신에서 메시지를 교환할 때는 공통키(대칭키) 암호화 사용__
 
 ##### SSL (Secure Sockets Layer)
 - SSL은 웹사이트와 브라우저 사이에 전송된 데이터를 암호화하여 인터넷 연결의 보안을 유지하는 표준 기술
@@ -394,9 +396,9 @@ __SSL 동작원리__:
 __CA(Certificate Authority)__: 
 인증서의 역할은 클라이언트가 접속한 서버가 __클라이언트가 의도한 서버가 맞는지__ 를 보장하는 역할. 민간 기업도 가능
 
-##### = CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 가장 가까운 캐싱 서버에서 콘텐츠를 전송하는 서비스.
+##### = CDN 서비스 설명: 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, 오리진 서버에서 배포된 캐싱 서버 중 사용자에게서 가장 가까운 서버에서 콘텐츠를 전송하는 서비스.
 - CDN은 콘텐츠에 대한 요청이 발생하면 최적으로 배치된 CDN 서버에 엔드유저가 매핑되고, 해당 서버는 요청된 파일의 캐싱된(사전 저장된) 버전으로 응답합니다. 
-- 서버가 파일을 찾는 데 실패하는 경우 CDN 플랫폼의 다른 서버에서 콘텐츠를 찾은 다음 엔드유저에게 응답을 전송합니다.
+- 서버가 파일을 찾는 데 실패하는 경우 CDN 플랫폼의 다른 캐싱 서버에서 콘텐츠를 찾은 다음 엔드유저에게 응답을 전송합니다.
 - 콘텐츠를 사용할 수 없거나 콘텐츠가 오래된 경우, CDN은 오리진 서버에 대한 요청 프록시로 작동하여 향후 요청에 대해 응답할 수 있도록 페칭된 콘텐츠를 저장합니다 (CDN이 오리진에 프록시로 작동하며 CDN이 오리진으로부터 전용네트워크로 다운받아 전송)
 - https://www.akamai.com/ko/our-thinking/cdn/what-is-a-cdn
 - https://goddaehee.tistory.com/173
@@ -417,9 +419,9 @@ __CA(Certificate Authority)__:
 - SAN(__Block스토리지__ -별도네트워크-주차장-데이타가 엄격히 정의된 블록에 저장: 블록위치 따라 접근): __EBS__ - 정형, RDB
 - __Object 스토리지__ - (발렛파킹-평면 구조에 저장, 고유ID로 접근 ): __S3__ - 비정형, DynamoDB
 
-- DAS, SAN은 디렉토리를 붙여 놓고, 사용자가 Copy 하거나 파일불러오기/읽기등이 가능.
+- DAS, SAN은 **디렉토리**를 붙여 놓고, 사용자가 Copy 하거나 파일불러오기/읽기등이 가능.
 - Object 스토리지는 그것이 불가능하다. 파일을 읽을려면 GET으로 내려 받아서, 읽고 변경 후에 다시 PUT으로 집어 넣어야 하는 것이다. 
-- Object 스토리지를 CDN등에서 활용할 수 있는지도 이해가 되는 부분이다. 즉 URL 방식으로 접근이 가능하기도 하다.
+- Object 스토리지를 CDN등에서 활용할 수 있는지도 이해가 되는 부분이다. 즉 **URL 방식으로 접근**이 가능하기도 하다.
 
 __Object 스토리지 접근__
 1. __URL 방식으로 접근__
@@ -431,11 +433,11 @@ __Object 스토리지 접근__
 그 이유는 파일 관리를 파일 이름 기반으로 하고 있다. 따라서 대용량의 파일 이전을 고민할 때에 중복제거등이 고민 될 수 있는 부분이 있다. 
 - Object 스토리지는 그런 부분이 없다. 그 하나 하나가 개별 객체이다.               
 (디렉토리 안의 파일 개념이 아니다) 따라서 중복이 아니라 그냥 다른 걸로 덮어 쓰기 해 버리는 것이다.
-- 이런 차이는 스토리지 전체 차원에서 중요한 의미를 가진다. __파일 시스템들이 각 파일의 변경 정보, 메타 정보등을 가지고 있고 관리 가능_
-하지만 오브젝트는 파일 시스템이 없기 때문에, __오브젝트와 함께 그것(메타정보)을 관리해야 하는 것__ 이다.
+- 이런 차이는 스토리지 전체 차원에서 중요한 의미를 가진다. __파일 시스템들이 각 파일의 변경 정보, 메타 정보등을 가지고 있고 관리 가능__
+하지만 **오브젝트는 파일 시스템이 없기 때문에, 오브젝트와 함께 메타정보를 관리**해야 하는 것 이다.
 (파일스토리지와 다른 점은 File스토리지는 1개의 경로만 갖는데 반해, Block스토리지는 여러 개의 경로를 가질 수 있다.)
 
-#### Kunbernetes
+#### Kunbernetes (컨테이너 관리 툴)
 - 컨테이너 오케스트레이션 툴
 - 다수의 컨테니어 실행을 관리, 조율
 
@@ -447,7 +449,7 @@ __Object 스토리지 접근__
  
 ![image](https://user-images.githubusercontent.com/94558947/167210392-c09849b9-46e9-48b8-a78d-a3bf9901f3a9.png)
 
-#### = Hadoop? 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
+#### = Hadoop: 대용량 비정형데이터(비디오,이미지 등)을 분산저장, 분산처리하는 것
   - HDFS (분산저장(NameNode-metadata, DataNode-Data)), MapReduce (분산처리(Map(추출)-Reduce(결과통합)))
   - MapReduce
     - Map: 흩어져 있는 데이터를 key, value 형태로 연관성 있는 데이터 분류로 묶는 작업
@@ -463,30 +465,31 @@ __Object 스토리지 접근__
 
 ![image](https://user-images.githubusercontent.com/94558947/166265921-9ee92c54-2d79-4680-821b-25d5fba2239c.png)
 
-
-
 https://ciksiti.com/ko/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers  - AWS 자주 묻는 질문
 https://blog.naver.com/PostView.naver?blogId=supsuh&logNo=222298527370&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView - 면접
 
 #### BGP (Border Gateway Protocol)
-- 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Distance Vector 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS)와 eBGP (exterior peers in different AS) 가 있다.
+- 인터넷에서 AS간에 라우팅 정보를 교환하기 위한 프로토콜. Path 기반 라우팅 프로토콜이며, 관리자에 의해 경로길이, 네트워크 정책 등을 바탕으로 경로 결정의 조정이 가능하다. iBGP (internal peers in the same AS)와 eBGP (exterior peers in different AS) 가 있다.
 - https://blog.naver.com/PostView.naver?blogId=taeheon714&logNo=222384978033&parentCategoryNo=&categoryNo=6&viewDate=&isShowPopularPosts=true&from=search
 - https://www.juniper.net/documentation/kr/ko/software/junos/bgp/topics/topic-map/bgp-overview.html
 
 #### MPLS (Label Switching)
 - 패킷 전달 고속화하기 위해  L2 스위칭(교환) 기술 사용하고, 망 확장성 제공하기 위해서 L3 라우팅 기능을 접목한 L3 스위칭 기술 - L2.5
-- 짧고 고정된 길이의 레이블을 기반으로 패킷을 전송하는 레이블 교환(Label Switching) 방식(L2)을 이용하며, IP 패킷을 목적지까지 전송하기 위해 IP 헤더 처리 과정(L3)이 MPLS 망에 진입하는 시점에서 단 한 번만(Push) 수행
-- 그리고 이 시점에서 IP 패킷이 하나의 레이블로 매핑됨으로써 스위칭 기술을 이용한 고속의 L2 데이터 전송이 이루어지며, TE(MPLS-TE), VPN(MPLS-VPN = MP-BGP) 까지 제공 가능
+- 짧고 고정된 길이의 레이블을 기반으로 패킷을 전송하는 **레이블 교환(Label Switching) 방식(L2)** 을 이용하며, IP 패킷을 **목적지까지 전송하기 위해 IP 헤더 처리 과정(L3)** 이 MPLS 망에 진입하는 시점에서 **단 한 번만(Push)** 수행
+- 그리고 이 시점에서 **IP 패킷이 하나의 레이블로 매핑됨**으로써 스위칭 기술을 이용한 고속의 L2 데이터 전송이 이루어지며, TE(MPLS-TE), VPN(MPLS-VPN = MP-BGP) 까지 제공 가능
 - MPLS를 이용하려면 라우터에 적용해야 하는 설정이 많습니다. MPLS는 본래 성능 개선과 간소화를 위해 오버레이 기법으로 설계된 기술입니다. 터널링과 비슷.
-- MPLS는 ISP가 사전 경로(LSP)를 미리 세팅 -> MPLS 네트워크를 통해서 소스에서 목적지까지 패킷이 통과하는 경로를 모든 네트워크 위치에서 데이터 전송을 위해 LSP를 설정.
--  어느 기반 프로토콜(MultiProtocol)에서든 포워딩 테이블을 만들 수 있습니다. 
+- **MPLS는 ISP가 사전 경로(LSP)를 미리 세팅** -> MPLS 네트워크를 통해서 소스에서 목적지까지 패킷이 통과하는 경로를 모든 네트워크 위치에서 데이터 전송을 위해 LSP를 설정.
+- **어느 기반 프로토콜(MultiProtocol)에서든 포워딩 테이블**을 만들 수 있습니다. 
 
 #### Anycast
 
 
+#### DNS Anycast
+
+
 #### GAN
-- 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 가품을 만들어 내며, 분류모델은 이를 판별한다. 
-  - 생성모델과 분류모델이 서로 경쟁(Adversarial)하며 데이터를 생성(Generative), 분류하면서 성능을 개선해 가는 것. 만약, GAN으로 인물 사진을 생성해 낸다면 인물 사진을 만들어내는 것을 Generator(생성자)라고 하며 만들어진 인물 사진을 평가하는 것을 Discriminator(구분자)라고 합니다. 생성자와 구분자가 서로 대립하며(Adversarial:대립하는) 서로의 성능을 점차 개선해 나가는 쪽으로 학습이 진행되는 것이 주요 개념입니다.
+- 생성모델, 분류모델 : 생성모델은 진품을 보고 진품과 비슷한 **가품(생성)** 을 만들어 내며, 분류모델은 이를 **판별**한다. 
+  - 생성모델과 분류모델이 서로 경쟁(Adversarial)하며 데이터를 생성(Generative)/분류하면서 성능을 개선해 가는 것. 만약, GAN으로 인물 사진을 생성해 낸다면 인물 사진을 만들어내는 것을 Generator(생성자)라고 하며 만들어진 인물 사진을 평가하는 것을 Discriminator(구분자)라고 합니다. 생성자와 구분자가 서로 대립하며(Adversarial:대립하는) 서로의 성능을 점차 개선해 나가는 쪽으로 학습이 진행되는 것이 주요 개념입니다.
 
 #### CNN
 https://bong-sik.tistory.com/21
@@ -498,9 +501,9 @@ https://velog.io/@rzbsys/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%95%A9%EC%84%B1
 - Classification Layer는 FCNN(Fully Connected Neural Network)과 같다. FCNN은 input image를 픽셀의 행으로 직렬화 한 후, 이것을 입력 신호로 주는 방식으로 동작한다.
 
 #### SDN
-- SDN에서 핵심은 네트워크 장비의 Control Plane(제어부)와 Data Plane(전송부)의 분리이다
-- 네트워크 리소스를 가상화하고 소프트웨어 애플리케이션과 API를 이용하여 네트워크를 프로그래밍하고, 중앙에서 전체 네트워크를 제어하고 관리.
-- Network overlay: VxLAN
+- SDN에서 핵심은 **네트워크 장비의 Control Plane(제어부)와 Data Plane(전송부)의 분리**이다
+- 네트워크 리소스(구조)를 가상화(Overlay, Tunnel)하고 **소프트웨어 애플리케이션과 API를 이용하여 네트워크를 프로그래밍하고, 중앙에서 전체 네트워크를 제어하고 관리**.
+- Network overlay: **VxLAN** , TEP
 
 #### DB: Index
 https://cano721.tistory.com/m/77
@@ -524,11 +527,11 @@ https://cano721.tistory.com/m/77
 - Devops, Data Engineering, Machine Learning의 교차점
 
 #### 가상화
-- 가상화는 하드웨어의 기능을 공유(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할된 자원을 사용하는 (솔루션보다 큰 개념인) 방법론입니다.
+- 가상화는 하드웨어의 기능을 **공유**(분리/분할)하는 기술이고, 클라우드 컴퓨팅은 하드웨어의 분할 **(공유)된 자원을 **사용**하는 (솔루션보다 큰 개념인) 방법론입니다.
 
 #### Machine Learning
-- Predict/Forecast: Regression, Classification
 - Learning: Supervised (label), Unsupervised Learning(no label)
+- Predict/Forecast: Regression(시계열 예측?), Classification(분류 예측)
 
 ####  cURL = Client URL
 - 클라이언트에서 커맨드 라인으로 웹브라우저에서와 같이 사용할수 있개 해주는 툴
@@ -542,7 +545,7 @@ https://cano721.tistory.com/m/77
 제1사 쿠키는 방문하는 사이트에 의해 생성됩니다. 사이트가 주소 표시줄에 표시됩니다.
 타사 쿠키는 다른 사이트, 즉 광고나 이미지 등 방문하는 웹페이지에 표시되는 일부 콘텐츠를 소유하는 사이트에 의해 생성됩니다.
 
-쿠키는 유저들의 효율적이고 안전한 웹 사용을 보장하기 위하여 웹사이트에 널리 사용되고 있습니다. **쿠키는 웹사이트 접속시 접속자의 개인장치에 다운로드 되고 브라우저에 저장되는 작은 텍스트 파일입니다. 웹사이트는 쿠키를 통해 접속자의 장치를 인식하고, 접속자의 설정과 과거 이용내역에 대한 일부 데이터를 저장합니다.**
+쿠키는 유저들의 효율적이고 안전한 웹 사용을 보장하기 위하여 웹사이트에 널리 사용되고 있습니다. **쿠키는 웹사이트 접속시, 사용자의 개인장치에 다운로드 되고 브라우저에 저장되는 작은 텍스트 파일입니다. 웹사이트는 쿠키를 통해 접속자의 장치를 인식하고, 접속자의 설정과 과거 이용내역에 대한 일부 데이터를 저장합니다.**
 
 일반적으로 쿠키에는 만료일이 있습니다. 예를 들어, 브라우저를 닫는 경우 자동으로 삭제되는 쿠키도 있으며(세션 쿠키), 일부는 수동으로 삭제되기 전까지 남아있는 등 더 오랜기간 동안 컴퓨터에 저장되는 쿠키도 있습니다(지속적 쿠키). 본 웹사이트는 세션 및 지속적 쿠키의 사용을 통해 유저들에게 일관성 있고 간소화된 웹 경험을 제공합니다.
 
