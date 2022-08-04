@@ -82,25 +82,25 @@ https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD
 #### = Security - Web, DB
 - SQL Injection: 입력창/param 등에 sql를 삽입하여 데이터베이스 조작. 프로그램 보안 상의 허점을 의도적으로 이용해, 악의적인 SQL문을 실행되게 함으로써 DB를 비정상적으로 조작
 - DDoS attack
-  - SYN Flooding: 다량의 Syn 패킷을 서버로 전달하여 서버의 대기큐를 가득채워 새로운 클라이언트의 연결요청을 무시하도록 하여 장애를 유발 시키는 공격 
-  - HTTP Get Flooding: 정상적인 TCP 세션과 함께 정상적으로 보이는 HTTP Get 요청을 지속적으로 발생시켜, TCP 세션 처리 및 HTTP 요청 처리까지 수행, HTTP 처리 모듈의 과부하 야기
-  - TCP Flooding: TCP 3-Way Handshake 과정을 과도하게 유발함으로써 서비스의 과부하를 야기시키는 공격 유형
-  - UDP Flooding: DoS 공격(Denial-of-service attack)의 한 종류로써 많은 수의 UDP packet을 victim에 전송하여 정상적인 서비스가 불가능하도록 하는 공격
+  - SYN Flooding: 다량의 Syn 패킷을 서버로 전달하여 서버의 대기큐를 가득채워 새로운 클라이언트의 __연결요청을 무시__ 하도록 하여 장애를 유발 시키는 공격 
+  - HTTP Get Flooding: 정상적인 TCP 세션과 함께 정상적으로 보이는 HTTP Get 요청을 지속적으로 발생시켜, TCP 세션 처리 및 HTTP 요청 처리까지 수행, __HTTP 처리 모듈의 과부하__ 야기
+  - TCP Flooding: TCP 3-Way Handshake 과정을 과도하게 유발함으로써 __서비스의 과부하__ 를 야기시키는 공격 유형
+  - UDP Flooding: DoS 공격(Denial-of-service attack)의 한 종류로써 많은 수의 UDP packet을 victim에 전송하여 정상적인 __서비스가 불가능__ 하도록 하는 공격
 - XSS (Cross Site Script)
   - 웹 애플리케이션에서 일어나는 취약점으로, 해당 사이트에 접속하는 유저들의 정보를 탈취하는 공격 기법 (Stored(Persistent), Reflected, DOM based)
   1. Persistent(or Stored) XSS (지속형 혹은 저장형)
   - 웹 애플리케이션의 취약한 곳에 악성 스크립트를 삽입 - 해당 스크립트는 DB에 저장됨
-  - 악성 스크립트가 저장된 게시글 등을 열람한 사용자들은 쿠키를 탈취당하던가 다른 사이트로 리디렉션 되는 공격 받음
+  - 악성 스크립트가 __저장된 게시글__ 등을 열람한 사용자들은 쿠키를 탈취당하던가 다른 사이트로 리디렉션 되는 공격 받음
   2. Reflected XSS (반사형)
-  - 사용자에게 입력받은 검색어를 그대로 보여주는 곳에 스크립트 삽입하여 서버가 사용자의 입력 값을 포함해 응답할 때 스크립트 실행
+  - 사용자에게 입력받은 검색어를 __그대로 보여주는 곳__ 에 스크립트 삽입하여 서버가 사용자의 입력 값을 포함해 __응답할 때__ 스크립트 실행
   3. DOM based XSS (Document Object Model 기반)
   - 악의적인 스크립트가 포함된 URL을 사용자가 요청하게 되어 브라우저를 해석하는 단계에서 공격
   - 악의적인 스크립트로 인해 클라이언트 측 코드가 원래 의도와는 다르게 실행됨
 
 #### = Data WareHouse, Data Lake, Data Mart
-- Data WareHouse: 다양한 원천을 join 등을 시용하여 하나의 통합된 형태로 정제한 것 (ETL)
-- Data Lake: 다양한 원천을 그대로 가져와 저장
-- Data Mart: 현업 담당자(소비자)가 필요한 데이터(상품)을 직접 골라담아 소비할 수 있는 공간(소매점 마트!)이라고 할 수 있다
+- Data WareHouse: 다양한 원천을 join 등을 사용하여 __하나의 통합된 형태로 정제__ 한 것 (ETL)
+- Data Lake: 다양한 원천을 __그대로 가져와 저장__
+- Data Mart: 현업 담당자(소비자)가 __필요한 데이터(상품)을 직접 골라담아__ 소비할 수 있는 공간(소매점 마트!)이라고 할 수 있다
 - ETL: 데이터를 운영 시스템에서 추출하여 가공(변환, 정제)한 후 데이터 웨어하우스에 적재하는 모든 과정
 
 #### = RSA 공개키를 알면 RSA 개인키를 알 수 있다 - ROCA (Return of Coppersmith’s Attack) 취약점
@@ -139,15 +139,15 @@ https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9
 
 #### = 리눅스 부팅과정
 - https://yonlog.tistory.com/m/59
-- Step 1 : Hardware - Power On, BIOS, MBR (ROM)
-- Step 2 : BootLoader - GRUB (RAM)
-- Step 3 : Kernel - Kernel (Disk)
-- Step 4 : Init - Init Level (0:halt, 1:single mode), Login
+- Step 1 : Hardware - __Power On, BIOS, MBR (ROM)__
+- Step 2 : BootLoader - __GRUB (RAM)__
+- Step 3 : Kernel - __Kernel (Disk)__
+- Step 4 : Init - __Init Level (0:halt, 1:single mode), Login__
 
 #### = Distributed and Scalable systems 구성 시 고려할 요소
 ##### - Distributed and Scalable Systems 
 - 분산 시스템은 단일 컴퓨터를 형성하기 위해 함께 작동하는 자율적인 컴퓨터들의 집합이고,
-모든 분산 컴퓨터는 상호 의존적이며, 공유 네트워크에 연결되어 정보를 공유하고 소통한다.
+모든 분산 컴퓨터는 __상호 의존적이며, 공유 네트워크에 연결되어 정보를 공유__ 하고 소통한다.
 
 ##### - Distributed Scalable Systems 구성 시 고려사항
 - Failure Handling(장애처리): 일부 구성요소 fail시에도 다른 요소들은 계속 작동한다. 이는 대규모 장애를 방지하지만, 문제 해결/디버깅시 복잡성이 더 커진다.
@@ -157,8 +157,8 @@ https://velog.io/@parkdasol/1%ED%94%BD%EC%85%80%EC%9D%80-%EB%AA%87%EB%B0%94%EC%9
 
 ##### - Cloud vs Distributed system
 - 클라우드 컴퓨팅과 분산 시스템은 다르지만 유사한 컨셉을 사용하고 있다.
-- 분산 컴퓨팅은 여러 기기에 task를 분산함으로써 분산 시스템을 사용한다.
-- 반면에 클라우드 컴퓨팅은 스토리지, 프로세스, 데이터 관리를 위해 네트워크 호스팅 서버를 사용한다.
+- 분산 컴퓨팅은 __여러 기기에 task를 분산함__ 으로써 분산 시스템을 사용한다.
+- 반면에 클라우드 컴퓨팅은 스토리지, 프로세스, 데이터 관리를 위해 __네트워크 호스팅 서버__ 를 사용한다.
 - 분산 컴퓨팅은 협업적인 자원 공유를 만들고 __size__ 와 __geographical scalability__ 을 제공하는 것을 목표로 한다.
 - 클라우드 컴퓨팅은 투명성, 모니터링 및 보안을 사용하여 On-demand 환경을 제공하는 것이다.
 
@@ -189,21 +189,21 @@ DNS는 replication도 사용하지만 주된 기능은 distribution (여러대)�
 replication은 복제하는 것이다. distribution과 달리 replication만의 장점은 resource의 가용성(availability)이 올라가는 것이다. 같은 resource가 여러 곳에 있으므로 이용할 수 있는 확률이 올라간다. 그리고 인기 있는 자원에 대해 복제해서 여러곳에 두면 부하를 분산(load balancing)시킬 수 있다. Caching (복제), Consistency (리소스 내용 일치)
 
 4. __정리__
-Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제로 쉬운건 아니지만 머신의 성능(capacity)을 높여주면 되기 때문에 상대적으로 쉽다고 볼 수 있다. distribution, replication, and caching을 결합한 형태는 실제로 많이 사용되는 테크닉이다. Administrative scalability는 기술적인 측면이 아니라서 세 가지 중에서 가장 해결하기 어려운 것이다.
+Size 측면의 scalability가 상대적으로 가장 해결하기 쉽다. 실제로 쉬운건 아니지만 머신의 성능(capacity)을 높여주면 되기 때문에 상대적으로 쉽다고 볼 수 있다. distribution, replication, and caching을 결합한 형태는 실제로 많이 사용되는 테크닉이다. Administrative scalability는 기술적인 측면이 아니라서 세 가지(Size, Geography, Admin) 중에서 가장 해결하기 어려운 것이다.
 
 #### = 컨테이너? (Container)
-- 컨테이너는 __커널 공유하는 방법__ 으로 호스트 OS 하나에서 여러 OS를 __가상화__
-- 애플리케이션을 구동하는 환경을 격리한 공간. 예) Docker (Container Runtime)
+- 컨테이너는 __커널 공유하는 방법__ 으로 **호스트 OS 하나에서 여러 OS를 가상화** (hypervisor가 아닌 커널 공유)
+- **애플리케이션을 구동하는 환경을 격리한 공간**. 예) Docker (Container Runtime)
 - Hypervisor vs Container
-  - Hypervisor: Server - OS/Hypervisor - GuestOS- Bin/lib - App
-  - Container: Server - OS - Container Engine - Bin/lib - App
+  - Hypervisor: Server - OS/**Hypervisor** - GuestOS- Bin/lib - App
+  - Container: Server - OS - **Container Engine** - Bin/lib - App
 
 ![21](https://user-images.githubusercontent.com/94558947/167036130-980026f6-6254-49a5-9eaa-4abb78818a70.PNG)
 
 #### = CI/CD? (Continuous Integration / Continuous Deployment, Delivery)
 https://helloworld-88.tistory.com/50
 
-The process begins after some changes are committed to a version control system (e.g. Git), the __CI/CD framework (e.g. Jenkins)__ would detect the changes and trigger the automated tests to begin. __If the changes pass the tests, the CI/CD framework would trigger__ the build automation tool (e.g. Docker); finally, the framework would trigger the deployment automation tool (e.g. Kubernetes) and send the new version to production.
+The process begins after some changes are committed to a version control system (e.g. Git), the __CI/CD framework (e.g. CI: Jenkins)__ would detect the changes and trigger the automated **tests** to begin. __If the changes pass the tests,__ **the CI/CD framework would trigger the **build** automation tool (e.g. Docker); finally, the framework would trigger the **deployment** automation tool (e.g. Kubernetes) and send the new version to production.
 
 ##### - CI (Continuous Integration)
 - 코드가 변경되어 GIT과 버전 관리 시스템에 업로드되면 commit된 소스코드를 주기적으로 검증 여부를 확인하고 통합하는 것.
@@ -227,8 +227,9 @@ https://velog.io/@parkdasol/CICD
 - 코드 변경이 파이프라인의 이전 단계를 __모두 성공적으로 통과하면 수동 개입 없이 해당 변경 사항이 프로덕션에 자동으로 배포.__ 지속적 배포는 품질 저하 없이 사용자에게 기능을 빠르게 제공하기 위해 자동화 사용을 극대화한다.
 
 #### = Micro services design 의 장단점?
-- Micro Services: 대형 소프트웨어 프로젝트의 기능들을 작고 독립적이며 느슨하게 결합된 모듈로 분해하여 서비스를 제공하는 아키텍처이며, 각 개별 모듈은 개별적인 작업을 담당하며 API를 통해 다른 모듈과 통신합니다.
+- Micro Services: 대형 소프트웨어 프로젝트의 기능들을 작고 독립적이며 느슨하게 결합된 모듈로 분해하여 서비스를 제공하는 아키텍처이며, **각 개별 모듈은 개별적인 작업을 담당하며 API를 통해 다른 모듈과 통신**합니다.
 - https://giljae.medium.com/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-microservices-architecture-%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90-7c45615cfe1a
+
 ##### 마이크로 서비스 장점
 - 벤더사 중심의 SOA에 비해서 마이크로서비스는 Amazon, Netflix, eBay와 같은 글로벌 서비스 플레이어가 사용할 만큼 강력합니다.
 - Improves fault isolation : __단일 모듈의 장애에 대해 전체 어플리케이션은 크게 영향을 받지 않습니다.__
@@ -532,3 +533,25 @@ https://cano721.tistory.com/m/77
 ####  cURL = Client URL
 - 클라이언트에서 커맨드 라인으로 웹브라우저에서와 같이 사용할수 있개 해주는 툴
 - url을 가지고 할 수 있는 것들은 대부분 할수 있으며, 다른 프로토콜 지원, SSL도 가능
+
+#### cookie
+쿠키는 방문한 웹사이트에서 생성된 파일로, 인터넷 사용정보를 저장하여 온라인을 쉽게 탐색할 수 있게 합니다. 쿠키를 사용하면 사이트에서 로그인 상태를 유지하고 사이트 환경설정을 기억하며 지역 관련 콘텐츠를 제공할 수 있습니다.
+
+쿠키에는 두 가지 유형이 있습니다.
+
+제1사 쿠키는 방문하는 사이트에 의해 생성됩니다. 사이트가 주소 표시줄에 표시됩니다.
+타사 쿠키는 다른 사이트, 즉 광고나 이미지 등 방문하는 웹페이지에 표시되는 일부 콘텐츠를 소유하는 사이트에 의해 생성됩니다.
+
+쿠키는 유저들의 효율적이고 안전한 웹 사용을 보장하기 위하여 웹사이트에 널리 사용되고 있습니다. **쿠키는 웹사이트 접속시 접속자의 개인장치에 다운로드 되고 브라우저에 저장되는 작은 텍스트 파일입니다. 웹사이트는 쿠키를 통해 접속자의 장치를 인식하고, 접속자의 설정과 과거 이용내역에 대한 일부 데이터를 저장합니다.**
+
+일반적으로 쿠키에는 만료일이 있습니다. 예를 들어, 브라우저를 닫는 경우 자동으로 삭제되는 쿠키도 있으며(세션 쿠키), 일부는 수동으로 삭제되기 전까지 남아있는 등 더 오랜기간 동안 컴퓨터에 저장되는 쿠키도 있습니다(지속적 쿠키). 본 웹사이트는 세션 및 지속적 쿠키의 사용을 통해 유저들에게 일관성 있고 간소화된 웹 경험을 제공합니다.
+
+터넷을 사용하면 Google 페이지는 접속 시 마다 로그인 상태를 유지하고 있다.
+이는 쿠키를 통해 사용자의 정보들을 쿠키에 저장하게 된다.
+ 
+페이지 이동 시 쿠키를 통해 로그인 정보를 서버에 전달하고
+서버에서는 해당 사용자를 식별하여 로그인 상태를 유지할 수 있다.
+ 
+이 방식은 다만, 쿠키가 노출되는 보안 문제를 방지하기 위해 세션(Session)이 있다.
+Session ID는 브라우저 단위로 저장되고, 브라우저 종료 시 제거
+https://chlolisher.tistory.com/102
