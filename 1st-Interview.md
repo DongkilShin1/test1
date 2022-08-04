@@ -558,3 +558,25 @@ https://cano721.tistory.com/m/77
 이 방식은 다만, 쿠키가 노출되는 보안 문제를 방지하기 위해 세션(Session)이 있다.
 Session ID는 브라우저 단위로 저장되고, 브라우저 종료 시 제거
 https://chlolisher.tistory.com/102
+
+#### BFD(Bidirectional Forwarding Detection) 
+BFD프로토콜은 네트워크의 장애를 감지하는 단순한 hello 메커니즘입니다. Hello 패킷은 지정된 간격으로 전송됩니다. 라우팅 장비가 지정된 간격 후에 응답 수신을 중지하면 이웃 장애가 감지됩니다. BFD는 다양한 네트워크 환경 및 토폴로지에서 작동합니다. BFD에 대한 장애 탐지 타이머는 BGP를 위한 기본 장애 탐지 메커니즘보다 시간 제한이 짧기 때문에 보다 신속하게 탐지할 수 있습니다.
+
+BGP 기반 장애 감지는 60초가 걸리는 것과 달리 기본 설정으로 구성된 BFD에서는 5초 내에 장애를 감지합니다
+https://cloud.google.com/network-connectivity/docs/router/concepts/bfd?hl=ko
+
+===============
+
+인터넷 루트 네임 서버
+모든 인터넷 루트 네임 서버(인터넷 주소를 아이피 주소로 변환하는 서버)는 애니캐스트 주소 지정을 사용하여 호스트의 클러스터로 구현 된다. 즉 전세계에 위치한 13개의 루트 네임 서버 A-M은 모두 여러 국제적인 위치에 있으며, 여러 대륙에 분산하여 11개가 있다. (루트 서버 B와 H는 두 개의 미국에 위치에 있다.)
+
+----
+https://jaychoi-us-life.tistory.com/175
+
+https://www.whatap.io/ko/blog/40/
+
+https://moleman.tistory.com/418
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=sdream4&logNo=10043264105
+
+https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/
