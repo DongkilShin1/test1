@@ -10,14 +10,18 @@
 - 가용전력이 충분히 확보 되어 있는지
 - 확장성을 고려한 데이터센터 선정이 중요
 
-#### = TCP/IP
+#### = TCP/IP OS 7 (SPA, TNDP)
 - 응용계층(세션계층-S, 표현계층-P, 응용계층-A)
 - TCP: 전송계층(전송계층-Transport)
 - IP: 인터넷계층(네트워크계층-Network)
 - Network or Link (데이터링크계층, 물리계층 - DataLink, Physical)
 
+- 3way handshake
+https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake
+
 #### = DHCP
 - DHCP: 클라이언트 PC에 동적 IP할당 - discovery, offer, request, ack
+- - https://ja-gamma.tistory.com/entry/DHCP%EA%B0%9C%EB%85%90%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC
 
 #### = DNS 원리
 - DNS: __URL -> IP__ - A (IP mapping), NS(Name Server), CNAME (별칭), MX(이메일)
@@ -25,6 +29,7 @@
 
 - https://www.cloudflare.com/ko-kr/learning/dns/what-is-dns/
 - https://aws.amazon.com/ko/route53/what-is-dns/
+- https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/
 
 - GSLB: DNS base, 부하분산, 서비스 가용성 위해 사용(두개이상 데이터센터); 헬스체크(다운서버체크), 과부하SLBx, RTT응답 빠른서버, 지역적 - connection load, site preference, least selected
 
@@ -35,15 +40,15 @@
 
 #### = Forward Proxy, Reverse Proxy의 차이점?
 - proxy: 클라이언트가 프록시 서버를 통하여(대신하여) 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해 주는 것
-- forward proxy: 클라이언트 앞단에 있다. 클라이언트가 감춰진다. 요청 받는 서버는 포워드 프록시 서버를 통해서 요청을 받기 때문에 클라이언트의 정보를 알 수 없다.
-- reverse proxy: 실제 서버 앞단에 있다. 서버가 감춰진다. 클라이언트는 리버스 프록시 서버에게 요청하기 때문에 실제 서버의 정보를 알 수가 없다.
+- forward proxy(cf:NAT): 클라이언트 앞단에 있다. 클라이언트가 감춰진다. 요청 받는 서버는 포워드 프록시 서버를 통해서 요청을 받기 때문에 클라이언트의 정보를 알 수 없다.
+- reverse proxy(cf:LB): 실제 서버 앞단에 있다. 서버가 감춰진다. 클라이언트는 리버스 프록시 서버에게 요청하기 때문에 실제 서버의 정보를 알 수가 없다.
 
 #### = Authentication과 Authorization의 차이점
 - Authentication (인증): 신원을 확인하는 프로세스
 - Authorization (권한부여):  무엇을 할 수 있는지 결정하는 프로세스
 
 #### = 보안과 관련된 key 처리
-- __KMS__
+- __KMS__ 
   1. 암호화 키의 __보관__, 관리 기능
   2. 암호화 키의 __분배__, 관리 기능
 
