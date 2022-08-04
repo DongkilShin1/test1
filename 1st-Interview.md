@@ -580,3 +580,11 @@ https://moleman.tistory.com/418
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=sdream4&logNo=10043264105
 
 https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/
+
+https://www.amazon.jobs/en/principles
+
+https://aws.amazon.com/ko/careers/culture/
+
+https://techhans.tistory.com/84
+
+https://www.google.com/search?q=AWS+tam+%EC%9D%B8%ED%84%B0%EB%B7%B0&oq=AWS+tam+%EC%9D%B8%ED%84%B0%EB%B7%B0&aqs=chrome..69i57.14314j1j7&sourceid=chrome&ie=UTF-8
